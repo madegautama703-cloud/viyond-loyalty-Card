@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "historyId": "2626a585-18bd-4473-8fdd-b21b93bcf1a7",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/fonts/plus-jakarta-sans-latin-400-normal.woff2": {
+      "hash": "221a4135d06a4b33abbd535e9a0da4e565d19545ddd9267c4e678a916d54d9b6",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/22/221a4135d06a4b33abbd535e9a0da4e565d19545ddd9267c4e678a916d54d9b6"
+    },
+    "assets/fonts/plus-jakarta-sans-latin-500-normal.woff2": {
+      "hash": "bad081c8dbc15aed6c5e4cde5461914f7b3bdc295b7a7aed177e4beddb79bffa",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/ba/bad081c8dbc15aed6c5e4cde5461914f7b3bdc295b7a7aed177e4beddb79bffa"
+    },
+    "assets/fonts/plus-jakarta-sans-latin-600-normal.woff2": {
+      "hash": "8872bb5c9111df9bd3162c2394aee6354d782b13408a4dd5bbf65c48207206e6",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/88/8872bb5c9111df9bd3162c2394aee6354d782b13408a4dd5bbf65c48207206e6"
+    },
+    "assets/fonts/plus-jakarta-sans-latin-700-normal.woff2": {
+      "hash": "2050755bf475817c96ac7d914c7f07cc3c2d11ff4b3fb4747b8d41de584aad17",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/20/2050755bf475817c96ac7d914c7f07cc3c2d11ff4b3fb4747b8d41de584aad17"
+    },
+    "assets/fonts/plus-jakarta-sans-latin-800-normal.woff2": {
+      "hash": "5f301a8ef9c266c8b596e6793d3cc826daeff9849c5af035f5386439137955ad",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/5f/5f301a8ef9c266c8b596e6793d3cc826daeff9849c5af035f5386439137955ad"
+    },
+    "assets/images/kartu-belakang-kosong.png": {
+      "hash": "e3d362fc7aef23fa240839568bf08ad73c7303f10cebceeb13dccb54944d5c87",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/e3/e3d362fc7aef23fa240839568bf08ad73c7303f10cebceeb13dccb54944d5c87"
+    },
+    "assets/images/kartu-depan.png": {
+      "hash": "5d5ca2f7702d3f578cedf52f8cc9bc3d37650fb7a6910aec2b004426ac748265",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/5d/5d5ca2f7702d3f578cedf52f8cc9bc3d37650fb7a6910aec2b004426ac748265"
+    },
+    "assets/images/stamp-kopi.png": {
+      "hash": "7f9cfb4736933cbc3b714aa2c1737e2e8a6952448d64c931d73bdad4374610dc",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/7f/7f9cfb4736933cbc3b714aa2c1737e2e8a6952448d64c931d73bdad4374610dc"
+    },
+    "assets/images/stamp-roti.png": {
+      "hash": "8bab3bfa7bd651ff8af54615fd6f6954659e9939f3ef0f5efe9cdec0ba0d1d53",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/8b/8bab3bfa7bd651ff8af54615fd6f6954659e9939f3ef0f5efe9cdec0ba0d1d53"
+    },
+    "assets/images/viyond-logo-white.png": {
+      "hash": "e56e713c026065a502bd9b8fb3baff9f9cd52eecf566faa7c2fd105932df119a",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/e5/e56e713c026065a502bd9b8fb3baff9f9cd52eecf566faa7c2fd105932df119a"
+    },
+    "assets/images/viyond-logo.png": {
+      "hash": "b1b8c269eb579b4f7ff90b7d54071b8a68afaf30c3522719f2f29c65f52267aa",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/b1/b1b8c269eb579b4f7ff90b7d54071b8a68afaf30c3522719f2f29c65f52267aa"
+    },
+    "assets/sfx/casino/card-slide-1.ogg": {
+      "hash": "006cf9822d15d7063f8899e56041f41646df30adb6fbd8b974ee5d5420012690",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/00/006cf9822d15d7063f8899e56041f41646df30adb6fbd8b974ee5d5420012690"
+    },
+    "assets/sfx/impact/impactBell_heavy_000.ogg": {
+      "hash": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/94/94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f"
+    },
+    "assets/sfx/impact/impactBell_heavy_003.ogg": {
+      "hash": "5572ccdeb3b62373b86fa955355b3a222c36e815f0636ba16165189a21cf2514",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/55/5572ccdeb3b62373b86fa955355b3a222c36e815f0636ba16165189a21cf2514"
+    },
+    "assets/sfx/impact/impactSoft_medium_001.ogg": {
+      "hash": "7642a4fd43e547afe4f7adfadb3dabb681c0ff512f52c1674bae30a726841faf",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/76/7642a4fd43e547afe4f7adfadb3dabb681c0ff512f52c1674bae30a726841faf"
+    },
+    "assets/sfx/impact/impactSoft_medium_002.ogg": {
+      "hash": "5069e3571a77d7f7aae9ef71d0364aa245fb7d64a7c8cc9956f221d03088c089",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/50/5069e3571a77d7f7aae9ef71d0364aa245fb7d64a7c8cc9956f221d03088c089"
+    },
+    "assets/sfx/impact/impactSoft_medium_004.ogg": {
+      "hash": "b0a4dea90eed47accf50b768beff1166f2f1486fb139e4d025b2427637624bca",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/b0/b0a4dea90eed47accf50b768beff1166f2f1486fb139e4d025b2427637624bca"
+    },
+    "assets/sfx/interface/bong_001.ogg": {
+      "hash": "d21d0f0b782445db579d11e2506b24cd1ac9d664ee33aeaf807761aa7b6fd710",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/d2/d21d0f0b782445db579d11e2506b24cd1ac9d664ee33aeaf807761aa7b6fd710"
+    },
+    "assets/sfx/interface/click_002.ogg": {
+      "hash": "adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/ad/adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c"
+    },
+    "assets/sfx/interface/click_003.ogg": {
+      "hash": "2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/2f/2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292"
+    },
+    "assets/sfx/interface/click_005.ogg": {
+      "hash": "a3ee7ebb036bc3cdc218ae52bb27548c4f49bcf07505274f8b61b1af8236acc2",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/a3/a3ee7ebb036bc3cdc218ae52bb27548c4f49bcf07505274f8b61b1af8236acc2"
+    },
+    "assets/sfx/ui/click2.ogg": {
+      "hash": "c394b46bc6737f7f7edfbfa3031ce621b7a43d498d456d6198364eee9cd3e306",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/c3/c394b46bc6737f7f7edfbfa3031ce621b7a43d498d456d6198364eee9cd3e306"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/28/28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087"
+    },
+    "index.html": {
+      "hash": "3741ee765a1ca8a3d502b97c16c6f0724d77cf63a0ca3e06862c694aad094d68",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/37/3741ee765a1ca8a3d502b97c16c6f0724d77cf63a0ca3e06862c694aad094d68"
+    },
+    "assets/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3": {
+      "hash": "5888d4bd2ba0119b87a94e502ae2cc401c08192945cc5e5c2f8e8a33aa47a0a1",
+      "content": "/Users/madepasekmaesagautama/.cache/hyperframes/history/2626a585-18bd-4473-8fdd-b21b93bcf1a7/blobs/58/5888d4bd2ba0119b87a94e502ae2cc401c08192945cc5e5c2f8e8a33aa47a0a1"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "65d535f5-8652-4ac5-8439-b980fba870df"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "65d535f5-8652-4ac5-8439-b980fba870df",
+        "scope": "project",
+        "report": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/checks/65d535f5-8652-4ac5-8439-b980fba870df.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794150854675,
+        "contentHash": "48ea01165a385919eb62722645aca7c8cc1abd19eaaea38cda251f5e5fbb7916",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-9"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-0",
+        "image": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/snapshots/94ccfcea-0616-4b59-b1b1-a6a0cf454806/frame-00-at-1s.png",
+        "time": 1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794150824094,
+        "contentHash": "d9b2b5c26829ec029c220cea87c6a43c5e9bc01fca5b9d964e6f64bb275b83f2",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-1",
+        "image": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/snapshots/94ccfcea-0616-4b59-b1b1-a6a0cf454806/frame-01-at-4s.png",
+        "time": 4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794150824094,
+        "contentHash": "6a65077142f711bf83e8a7ea33588d13f2cdb1bffd2c7d6507951c7f10936354",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-2",
+        "image": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/snapshots/94ccfcea-0616-4b59-b1b1-a6a0cf454806/frame-02-at-5.8s.png",
+        "time": 5.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794150824094,
+        "contentHash": "73273b5e0d6949ada47931d3f18e06a4cadb998e739c15df9427abf2a83c2c18",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-3",
+        "image": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/snapshots/94ccfcea-0616-4b59-b1b1-a6a0cf454806/frame-03-at-10s.png",
+        "time": 10,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794150824094,
+        "contentHash": "10defbeda84a204e2e3f089f3dd9147c14348b7263d9cd42c4997ea23bebc05d",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-4",
+        "image": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/snapshots/94ccfcea-0616-4b59-b1b1-a6a0cf454806/frame-04-at-12.4s.png",
+        "time": 12.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794150824094,
+        "contentHash": "6b74ebf1aee3ee73eacabb7eb27f52540e87be2fe1f05546eed86cfccc25eb20",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-5",
+        "image": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/snapshots/94ccfcea-0616-4b59-b1b1-a6a0cf454806/frame-05-at-14.5s.png",
+        "time": 14.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794150824094,
+        "contentHash": "77712126bf2a44d0878cf12bd028dd0957805ff9ae102ae18224aac3e8581a85",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-6",
+        "image": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/snapshots/94ccfcea-0616-4b59-b1b1-a6a0cf454806/frame-06-at-17.2s.png",
+        "time": 17.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794150824094,
+        "contentHash": "9b988b97a6ba8d3ef2987637ac75f2fb82cbe7555f688f0e050b90600ac6e604",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-7",
+        "image": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/snapshots/94ccfcea-0616-4b59-b1b1-a6a0cf454806/frame-07-at-18.9s.png",
+        "time": 18.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794150824094,
+        "contentHash": "ce0a1722af9ec3b019337e0512232988d8c0b355b36f656f14f273ac0ed7b0f4",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-8",
+        "image": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/snapshots/94ccfcea-0616-4b59-b1b1-a6a0cf454806/frame-08-at-21s.png",
+        "time": 21,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794150824094,
+        "contentHash": "546f30db317eeb00bd25538a8917019827f99775e5551fc046097aca01bd3147",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "ed971177-f73c-4280-935f-7bd99bb01ca9-9",
+        "image": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/composition/.hyperframes/artifacts/snapshots/94ccfcea-0616-4b59-b1b1-a6a0cf454806/frame-09-at-21.75s.png",
+        "time": 21.75,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794150824094,
+        "contentHash": "85d1ff8c96ec32c427e9dfe39530d06ed4a856eac201ff80ab7f04eb8dcbff42",
+        "revision": null,
+        "inputFingerprint": "a80ea8533bdc95370d1e3ad9e12ee3f7b85ec43b9b2e2c7f3a6365cd881c6be0",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "b61770c9-bb5b-4a9b-aeec-aa47a14555b7",
+      "completedAt": 1794150897514,
+      "output": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-231239/brag.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

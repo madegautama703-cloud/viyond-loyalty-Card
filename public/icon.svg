@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="metalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b3240" />
+      <stop offset="50%" stop-color="#131720" />
+      <stop offset="100%" stop-color="#0b0d11" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#metalBg)" />
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="none" stroke="url(#goldAccent)" stroke-width="4" stroke-opacity="0.45" />
+  <circle cx="256" cy="236" r="108" fill="#0b0d11" fill-opacity="0.6" stroke="url(#goldAccent)" stroke-width="6" />
+  <g transform="translate(256 236) rotate(45)">
+    <rect x="-52" y="-52" width="104" height="104" rx="12" fill="none" stroke="url(#goldAccent)" stroke-width="8" />
+    <rect x="-22" y="-22" width="44" height="44" rx="4" fill="url(#goldAccent)" />
+  </g>
+  <text x="256" y="410" text-anchor="middle" fill="#f8fafc" font-family="sans-serif" font-weight="700" font-size="38" letter-spacing="14">VESPERA</text>
+</svg>

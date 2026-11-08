@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0" />
+  <title>Sissi Heritage — Digital Loyalty Pass &amp; B2B Console Launch Video</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    html, body {
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background-color: #000000;
+      color: #F5F5F7;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Plus Jakarta Sans", "Helvetica Neue", sans-serif;
+      user-select: none;
+    }
+
+    .mono {
+      font-family: "SF Mono", "JetBrains Mono", "Menlo", monospace;
+      font-variant-numeric: tabular-nums;
+    }
+
+    #stage {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #000000;
+    }
+
+    /* Ambient Audio-Reactive Background Glow */
+    #ambient-glow {
+      position: absolute;
+      left: 50%;
+      top: 48%;
+      width: 1280px;
+      height: 760px;
+      transform: translate(-50%, -50%);
+      border-radius: 999px;
+      background: radial-gradient(circle, rgba(239, 229, 209, 0.22) 0%, rgba(74, 73, 40, 0.26) 45%, rgba(0, 113, 227, 0.08) 70%, transparent 85%);
+      filter: blur(80px);
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* Top Apple-style Glass Header */
+    .top-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 68px;
+      padding: 0 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(10, 10, 12, 0.82);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+      z-index: 30;
+    }
+
+    .brand-title {
+      font-size: 21px;
+      font-weight: 600;
+      letter-spacing: -0.025em;
+      color: #F5F5F7;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .brand-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #34D399;
+      box-shadow: 0 0 12px rgba(52, 211, 153, 0.8);
+    }
+
+    .top-nav {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      font-size: 16px;
+      color: #B4B4BC;
+    }
+
+    .top-nav span.active {
+      color: #F5F5F7;
+      font-weight: 600;
+    }
+
+    .top-cta {
+      background: #0071E3;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 10px 24px;
+      border-radius: 999px;
+    }
+
+    /* Scene Containers */
+    .scene {
+      position: absolute;
+      inset: 68px 0 0 0;
+      width: 1920px;
+      height: 1012px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 72px;
+      z-index: 10;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    /* Scene 1 & 2 Shared Split Layout */
+    .hero-grid {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 760px 1fr;
+      gap: 56px;
+      align-items: center;
+    }
+
+    .copy-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 24px;
+      padding-left: 12px;
+    }
+
+    .kicker {
+      font-size: 17px;
+      font-weight: 600;
+      color: #64D2FF;
+      letter-spacing: 0.02em;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .headline {
+      font-size: 62px;
+      font-weight: 700;
+      line-height: 1.07;
+      letter-spacing: -0.03em;
+      color: #F5F5F7;
+    }
+
+    .headline .accent-cream {
+      color: #EFE5D1;
+    }
+
+    .headline .accent-blue {
+      color: #64D2FF;
+    }
+
+    .subhead {
+      font-size: 24px;
+      line-height: 1.45;
+      color: #C7C7CC;
+      max-width: 680px;
+    }
+
+    .meta-strip {
+      display: flex;
+       flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      padding-top: 8px;
+      font-size: 17px;
+      color: #B4B4BC;
+    }
+
+    .meta-strip .emerald {
+      color: #6EE7B7;
+      font-weight: 600;
+    }
+
+    .meta-strip .blue {
+      color: #64D2FF;
+      font-weight: 600;
+    }
+
+    /* 3D Card Stage Panel */
+    .card-stage-panel {
+      position: relative;
+      width: 100%;
+      height: 820px;
+      background: #161618;
+      border-radius: 32px;
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      box-shadow: 0 40px 90px rgba(0, 0, 0, 0.75);
+      padding: 32px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .stage-top-bar, .stage-bottom-bar {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 15;
+      font-size: 16px;
+      color: #B4B4BC;
+    }
+
+    .stage-pill {
+      background: #222226;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      color: #F5F5F7;
+      padding: 9px 20px;
+      border-radius: 999px;
+      font-size: 15px;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .stage-pill.active-blue {
+      border-color: #2997FF;
+      color: #64D2FF;
+      background: rgba(0, 113, 227, 0.16);
+    }
+
+    /* 3D Card Container */
+    .perspective-wrap {
+      perspective: 1600px;
+      width: 680px;
+      height: 428px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 12;
+    }
+
+    .card-3d-root {
+      width: 680px;
+      height: 428px;
+      position: relative;
+      transform-style: preserve-3d;
+    }
+
+    .card-face {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 26px;
+      overflow: hidden;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      box-shadow:
+        0 36px 80px -12px rgba(0, 0, 0, 0.88),
+        0 0 0 1.5px rgba(255, 255, 255, 0.24),
+        inset 0 1px 2px rgba(255, 255, 255, 0.35);
+    }
+
+    .card-face-front {
+      background: #4A4928;
+      transform: rotateY(0deg) translateZ(2px);
+    }
+
+    .card-face-back {
+      background: #EFE5D1;
+      transform: rotateY(180deg) translateZ(2px);
+    }
+
+    .card-face img.card-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .cardholder-name {
+      position: absolute;
+      left: 5.71%;
+      top: 21.42%;
+      color: #EDE2CC;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 20px;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
+      z-index: 10;
+    }
+
+    .holo-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        125deg,
+        transparent 14%,
+        rgba(255, 215, 140, 0.26) 30%,
+        rgba(130, 240, 220, 0.22) 44%,
+        rgba(185, 165, 255, 0.22) 56%,
+        rgba(255, 165, 205, 0.20) 68%,
+        transparent 84%
+      );
+      background-size: 220% 220%;
+      mix-blend-mode: soft-light;
+      pointer-events: none;
+      z-index: 15;
+    }
+
+    .specular-glare {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 16;
+    }
+
+    /* Back Card Overlays */
+    .back-id-badge {
+      position: absolute;
+      top: 7.5%;
+      right: 5.5%;
+      color: #3A391E;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      z-index: 10;
+    }
+
+    .stamp-grid-overlay {
+      position: absolute;
+      left: 14.45%;
+      top: 31.06%;
+      width: 71.07%;
+      height: 44.20%;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      column-gap: 4.15%;
+      row-gap: 14.80%;
+      z-index: 10;
+    }
+
+    .stamp-slot {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 8%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .stamp-slot img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 4px 8px rgba(74, 73, 40, 0.25));
+    }
+
+    .qr-overlay-box {
+      position: absolute;
+      left: 79.75%;
+      top: 68.85%;
+      width: 17.02%;
+      height: 27.10%;
+      background: #FFFFFF;
+      border-radius: 14%;
+      padding: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 12;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+    }
+
+    /* Slide-Up Action Drawer inside Stage */
+    .slide-up-drawer {
+      position: absolute;
+      left: 40px;
+      right: 40px;
+      bottom: 20px;
+      background: rgba(22, 22, 26, 0.96);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 24px;
+      padding: 18px 28px 22px;
+      box-shadow: 0 -20px 50px rgba(0, 0, 0, 0.85);
+      z-index: 25;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .drawer-handle {
+      width: 44px;
+      height: 5px;
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 99px;
+      margin: 0 auto;
+    }
+
+    .drawer-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 15px;
+      color: #C7C7CC;
+    }
+
+    .drawer-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .drawer-btn {
+      height: 50px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .drawer-btn.pwa {
+      background: #242429;
+      border: 1px solid #2997FF;
+      color: #F5F5F7;
+    }
+
+    .drawer-btn.email {
+      background: #0071E3;
+      color: #FFFFFF;
+    }
+
+    /* Scene 3: Kasir B2B Portal */
+    .kasir-card {
+      width: 920px;
+      background: #161618;
+      border-radius: 32px;
+      border: 1px solid rgba(255, 255, 255, 0.10);
+      padding: 40px 44px;
+      box-shadow: 0 40px 90px rgba(0, 0, 0, 0.8);
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .kasir-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-bottom: 22px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .kasir-badge {
+      font-size: 16px;
+      font-weight: 600;
+      color: #64D2FF;
+      margin-bottom: 8px;
+    }
+
+    .kasir-cid {
+      font-size: 36px;
+      font-weight: 700;
+      color: #F5F5F7;
+    }
+
+    .kasir-counter {
+      text-align: right;
+    }
+
+    .kasir-counter-label {
+      font-size: 15px;
+      color: #B4B4BC;
+    }
+
+    .kasir-counter-val {
+      font-size: 54px;
+      font-weight: 700;
+      color: #F5F5F7;
+      line-height: 1;
+      margin-top: 4px;
+    }
+
+    .kasir-mini-stamps {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      gap: 12px;
+    }
+
+    .kasir-mini-slot {
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background: #EFE5D1;
+      border: 2px solid #2997FF;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .kasir-mini-slot img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .kasir-menu-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .kasir-item {
+      background: #0B0B0D;
+      border: 1.5px solid rgba(255, 255, 255, 0.09);
+      border-radius: 20px;
+      padding: 18px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .kasir-item.selected {
+      background: rgba(0, 113, 227, 0.16);
+      border-color: #2997FF;
+    }
+
+    .kasir-item-title {
+      font-size: 19px;
+      font-weight: 600;
+      color: #F5F5F7;
+    }
+
+    .kasir-item-sub {
+      font-size: 15px;
+      color: #B4B4BC;
+      margin-top: 3px;
+    }
+
+    .kasir-submit-btn {
+      height: 62px;
+      border-radius: 999px;
+      background: #0071E3;
+      color: #FFFFFF;
+      font-size: 20px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      box-shadow: 0 12px 30px rgba(0, 113, 227, 0.4);
+    }
+
+    .kasir-toast {
+      background: rgba(16, 185, 129, 0.16);
+      border: 1.5px solid #34D399;
+      color: #A7F3D0;
+      padding: 16px 24px;
+      border-radius: 18px;
+      font-size: 17px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* Scene 4: B2B Dashboard */
+    .b2b-wrap {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 32px;
+    }
+
+    .b2b-top {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+
+    .b2b-kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .b2b-kpi-card {
+      background: #161618;
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: 28px;
+      padding: 30px 32px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65);
+    }
+
+    .b2b-kpi-label {
+      font-size: 17px;
+      font-weight: 500;
+      color: #B4B4BC;
+    }
+
+    .b2b-kpi-val {
+      margin-top: 14px;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 1;
+      color: #F5F5F7;
+    }
+
+    .b2b-kpi-val.blue {
+      color: #64D2FF;
+    }
+
+    .b2b-kpi-val.emerald {
+      color: #6EE7B7;
+    }
+
+    .b2b-table-card {
+      background: #161618;
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65);
+    }
+
+    .b2b-table-head {
+      display: grid;
+      grid-template-columns: 240px 1.4fr 1.2fr 200px 280px;
+      padding: 20px 32px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #B4B4BC;
+    }
+
+    .b2b-table-row {
+      display: grid;
+      grid-template-columns: 240px 1.4fr 1.2fr 200px 280px;
+      padding: 24px 32px;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      font-size: 18px;
+      color: #F5F5F7;
+    }
+
+    .b2b-table-row.active-row {
+      background: rgba(0, 113, 227, 0.10);
+    }
+
+    .progress-track {
+      width: 180px;
+      height: 10px;
+      background: rgba(255, 255, 255, 0.10);
+      border-radius: 99px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 99px;
+      background: #34D399;
+    }
+
+    /* Scene 5: Outro */
+    .outro-wrap {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 36px;
+    }
+
+    .outro-cards-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 48px;
+    }
+
+    .outro-card-box {
+      width: 540px;
+      height: 340px;
+      border-radius: 22px;
+      overflow: hidden;
+      position: relative;
+      box-shadow:
+        0 32px 70px rgba(0, 0, 0, 0.85),
+        0 0 0 1.5px rgba(255, 255, 255, 0.22);
+    }
+
+    .outro-card-box img.card-bg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .viyond-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 24px;
+      border-radius: 999px;
+      background: #161618;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      font-size: 16px;
+      color: #C7C7CC;
+    }
+
+    .viyond-badge img {
+      height: 24px;
+      width: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hyperframes Audio Contract Elements -->
+  <audio id="bg-music" data-start="0" data-duration="20" data-track-index="10" data-volume="0.34" src="assets/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3"></audio>
+  <audio id="sfx-enter" data-start="0.20" data-duration="0.25" data-track-index="11" data-volume="0.68" src="assets/sfx/impact/impactSoft_medium_001.ogg"></audio>
+  <audio id="sfx-gyro" data-start="1.64" data-duration="0.15" data-track-index="12" data-volume="0.60" src="assets/sfx/interface/click_002.ogg"></audio>
+  <audio id="sfx-flip" data-start="4.39" data-duration="0.35" data-track-index="13" data-volume="0.72" src="assets/sfx/casino/card-slide-1.ogg"></audio>
+  <audio id="sfx-stamp-6" data-start="5.34" data-duration="0.15" data-track-index="14" data-volume="0.65" src="assets/sfx/interface/click_003.ogg"></audio>
+  <audio id="sfx-stamp-7" data-start="6.00" data-duration="0.15" data-track-index="15" data-volume="0.65" src="assets/sfx/interface/click_003.ogg"></audio>
+  <audio id="sfx-stamp-8" data-start="6.56" data-duration="0.15" data-track-index="16" data-volume="0.65" src="assets/sfx/interface/click_003.ogg"></audio>
+  <audio id="sfx-ready-bell" data-start="7.09" data-duration="1.20" data-track-index="17" data-volume="0.72" src="assets/sfx/impact/impactBell_heavy_000.ogg"></audio>
+  <audio id="sfx-kasir-trans" data-start="8.74" data-duration="0.25" data-track-index="18" data-volume="0.68" src="assets/sfx/impact/impactSoft_medium_004.ogg"></audio>
+  <audio id="sfx-kasir-item1" data-start="9.83" data-duration="0.15" data-track-index="19" data-volume="0.62" src="assets/sfx/ui/click2.ogg"></audio>
+  <audio id="sfx-kasir-item2" data-start="10.37" data-duration="0.15" data-track-index="20" data-volume="0.62" src="assets/sfx/ui/click2.ogg"></audio>
+  <audio id="sfx-kasir-submit" data-start="11.46" data-duration="0.30" data-track-index="21" data-volume="0.72" src="assets/sfx/interface/bong_001.ogg"></audio>
+  <audio id="sfx-b2b-trans" data-start="13.11" data-duration="0.25" data-track-index="22" data-volume="0.68" src="assets/sfx/impact/impactSoft_medium_002.ogg"></audio>
+  <audio id="sfx-b2b-kpi1" data-start="13.64" data-duration="0.15" data-track-index="23" data-volume="0.58" src="assets/sfx/interface/click_005.ogg"></audio>
+  <audio id="sfx-b2b-kpi4" data-start="15.29" data-duration="0.15" data-track-index="24" data-volume="0.58" src="assets/sfx/interface/click_005.ogg"></audio>
+  <audio id="sfx-outro-bell" data-start="17.47" data-duration="1.50" data-track-index="25" data-volume="0.75" src="assets/sfx/impact/impactBell_heavy_003.ogg"></audio>
+
+  <div id="stage" data-duration="20" data-fps="30" data-width="1920" data-height="1080">
+    <!-- Subtle Audio-Reactive Glow -->
+    <div id="ambient-glow"></div>
+
+    <!-- Top Navigation Bar (from app/page.tsx) -->
+    <header class="top-bar">
+      <div class="brand-title">
+        <span class="brand-dot"></span>
+        <span>Sissi Heritage</span>
+      </div>
+      <nav class="top-nav">
+        <span id="nav-front" class="active">Tampak Depan</span>
+        <span id="nav-grid">Grid 8 Stempel</span>
+        <span id="nav-pwa">Pintasan PWA</span>
+        <span id="nav-b2b">Buku Besar B2B</span>
+      </nav>
+      <div class="top-cta">Tambah +1 Stempel</div>
+    </header>
+
+    <!-- =================================================================
+         SCENE 1 & 2: 3D FLOATING PASS -> 180° FLIP -> 8 STAMPS & DRAWER
+         (0.0s - 8.74s)
+    ================================================================== -->
+    <section id="scene-1-2" class="scene">
+      <div class="hero-grid">
+        <!-- Left Copy Column -->
+        <div class="copy-col">
+          <div id="s12-kicker" class="kicker mono">
+            <span>SISSI HERITAGE DIGITAL PASS</span>
+            <span>·</span>
+            <span>SIS-9042-718K</span>
+          </div>
+
+          <h1 id="s12-headline" class="headline">
+            Tanpa unduh aplikasi.<br />
+            <span class="accent-cream">Tanpa login.</span>
+          </h1>
+
+          <p id="s12-subhead" class="subhead">
+            Kartu loyalitas 3D bertekstur metalik-holografik yang miring mengikuti sensor gerak ponsel dan tersimpan permanen di browser Anda.
+          </p>
+
+          <div id="s12-meta" class="meta-strip">
+            <span class="emerald">● Tersimpan Permanen di Perangkat (Anonim)</span>
+            <span>·</span>
+            <span id="s12-stamp-count" class="mono blue">5 / 8 Stempel Aktif</span>
+          </div>
+        </div>
+
+        <!-- Right 3D Card Stage Column -->
+        <div class="card-stage-panel">
+          <div class="stage-top-bar">
+            <div>
+              <strong id="stage-face-label" style="color: #F5F5F7;">Sisi Depan · Sissi Heritage</strong>
+              <span style="margin: 0 8px;">·</span>
+              <span id="stage-tilt-readout" class="mono">Kemiringan -8.5° / +14.0°</span>
+            </div>
+            <div style="display: flex; gap: 10px;">
+              <span id="gyro-pill" class="stage-pill active-blue">Sensor Terhubung</span>
+              <span id="flip-pill" class="stage-pill">Balik ke Belakang</span>
+            </div>
+          </div>
+
+          <!-- 3D Perspective Card -->
+          <div class="perspective-wrap">
+            <div id="card-3d-root" class="card-3d-root">
+              <!-- FRONT FACE -->
+              <div class="card-face card-face-front">
+                <img src="assets/images/kartu-depan.png" alt="Sissi Heritage Front" class="card-bg" />
+                <div class="cardholder-name">PELANGGAN SISSI</div>
+                <div id="front-holo" class="holo-overlay"></div>
+                <div id="front-glare" class="specular-glare"></div>
+              </div>
+
+              <!-- BACK FACE -->
+              <div class="card-face card-face-back">
+                <img src="assets/images/kartu-belakang-kosong.png" alt="Sissi Heritage Back" class="card-bg" />
+                <div class="back-id-badge mono">ID · SIS-9042-718K</div>
+
+                <!-- 8-Stamp Grid matching app/page.tsx coordinates -->
+                <div class="stamp-grid-overlay">
+                  <!-- Row 1: cols 1..5 -->
+                  <div class="stamp-slot" style="grid-row: 1; grid-column: 1;" id="stamp-slot-1">
+                    <img src="assets/images/stamp-roti.png" alt="Stamp 1" />
+                  </div>
+                  <div class="stamp-slot" style="grid-row: 1; grid-column: 2;" id="stamp-slot-2">
+                    <img src="assets/images/stamp-kopi.png" alt="Stamp 2" />
+                  </div>
+                  <div class="stamp-slot" style="grid-row: 1; grid-column: 3;" id="stamp-slot-3">
+                    <img src="assets/images/stamp-roti.png" alt="Stamp 3" />
+                  </div>
+                  <div class="stamp-slot" style="grid-row: 1; grid-column: 4;" id="stamp-slot-4">
+                    <img src="assets/images/stamp-kopi.png" alt="Stamp 4" />
+                  </div>
+                  <div class="stamp-slot" style="grid-row: 1; grid-column: 5;" id="stamp-slot-5">
+                    <img src="assets/images/stamp-roti.png" alt="Stamp 5" />
+                  </div>
+                  <!-- Row 2: cols 2..4 -->
+                  <div class="stamp-slot" style="grid-row: 2; grid-column: 2;" id="stamp-slot-6">
+                    <img src="assets/images/stamp-kopi.png" alt="Stamp 6" />
+                  </div>
+                  <div class="stamp-slot" style="grid-row: 2; grid-column: 3;" id="stamp-slot-7">
+                    <img src="assets/images/stamp-roti.png" alt="Stamp 7" />
+                  </div>
+                  <div class="stamp-slot" style="grid-row: 2; grid-column: 4;" id="stamp-slot-8">
+                    <img src="assets/images/stamp-kopi.png" alt="Stamp 8" />
+                  </div>
+                </div>
+
+                <!-- Offline Hermetic SVG QR Code inside white box -->
+                <div class="qr-overlay-box">
+                  <svg viewBox="0 0 29 29" width="100%" height="100%" shape-rendering="crispEdges">
+                    <rect width="29" height="29" fill="#FFFFFF"/>
+                    <path fill="#111111" d="M2,2 h7 v7 h-7 z M3,3 v5 h5 v-5 z M4,4 h3 v3 h-3 z M20,2 h7 v7 h-7 z M21,3 v5 h5 v-5 z M22,4 h3 v3 h-3 z M2,20 h7 v7 h-7 z M3,21 v5 h5 v-5 z M4,22 h3 v3 h-3 z M11,2 h2 v2 h-2 z M15,2 h2 v3 h-2 z M11,6 h3 v2 h-3 z M16,7 h2 v2 h-2 z M2,11 h3 v2 h-3 z M7,11 h2 v3 h-2 z M11,11 h3 v3 h-3 z M16,11 h2 v2 h-2 z M20,11 h3 v2 h-3 z M25,11 h2 v3 h-2 z M4,15 h3 v2 h-3 z M9,16 h2 v2 h-2 z M13,15 h4 v2 h-4 z M19,15 h2 v3 h-2 z M23,16 h4 v2 h-4 z M11,20 h2 v3 h-2 z M15,19 h3 v2 h-3 z M14,23 h2 v4 h-2 z M18,21 h3 v3 h-3 z M23,20 h4 v2 h-4 z M21,24 h3 v3 h-3 z M26,25 h2 v2 h-2 z"/>
+                  </svg>
+                </div>
+
+                <div id="back-holo" class="holo-overlay"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stage-bottom-bar">
+            <span>Klik kartu untuk membalik 3D · 8 Stempel Kopi &amp; Croissant</span>
+            <span id="stage-drawer-status" class="mono" style="color: #64D2FF;">Balik ke Belakang untuk Menu Pintasan &amp; Cadangan</span>
+          </div>
+
+          <!-- Slide-Up PWA & Email Backup Drawer (appears when card flips to back) -->
+          <div id="slide-up-drawer" class="slide-up-drawer">
+            <div class="drawer-handle"></div>
+            <div class="drawer-top">
+              <div>
+                <strong style="color: #F5F5F7;">Pintasan Aplikasi &amp; Cadangan Kartu</strong>
+                <span style="margin: 0 8px;">·</span>
+                <span class="mono" style="color: #64D2FF;">SIS-9042-718K</span>
+                <span style="margin: 0 8px;">·</span>
+                <span style="color: #6EE7B7; font-weight: 600;">8/8 Hadiah Siap Klaim!</span>
+              </div>
+              <span>Tersimpan di localStorage</span>
+            </div>
+            <div class="drawer-actions">
+              <div class="drawer-btn pwa">
+                <span>＋ Add to Home Screen (PWA)</span>
+              </div>
+              <div class="drawer-btn email">
+                <span>✉ Email Backup Terenkripsi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SCENE 3: PORTAL KASIR B2B (/kasir)
+         (8.74s - 13.11s)
+    ================================================================== -->
+    <section id="scene-3" class="scene">
+      <div class="hero-grid">
+        <div class="copy-col">
+          <div class="kicker mono">
+            <span>PORTAL KASIR B2B</span>
+            <span>·</span>
+            <span>/kasir?id=SIS-9042-718K</span>
+          </div>
+          <h2 class="headline">
+            Scan QR di kasir.<br />
+            <span class="accent-blue">Stempel masuk instan.</span>
+          </h2>
+          <p class="subhead">
+            Tanpa mesin EDC tambahan. Kasir memindai QR kartu pelanggan, memilih menu kopi &amp; pastry, lalu mengirim stempel sekaligus mencatat transaksi ke webhook B2B.
+          </p>
+          <div class="meta-strip">
+            <span class="emerald">● QR Scan Verified</span>
+            <span>·</span>
+            <span class="mono">Webhook Sinkronisasi Otomatis</span>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+          <div id="kasir-card" class="kasir-card">
+            <div class="kasir-header">
+              <div>
+                <div class="kasir-badge">✓ QR Pelanggan Terdeteksi</div>
+                <div class="kasir-cid">Pelanggan: <span class="mono">SIS-9042-718K</span></div>
+              </div>
+              <div class="kasir-counter">
+                <div class="kasir-counter-label">Stempel Aktif</div>
+                <div id="kasir-stamp-num" class="kasir-counter-val mono">7/8</div>
+              </div>
+            </div>
+
+            <!-- 8 Mini Stamp Slots -->
+            <div class="kasir-mini-stamps">
+              <div class="kasir-mini-slot"><img src="assets/images/stamp-roti.png" alt="" /></div>
+              <div class="kasir-mini-slot"><img src="assets/images/stamp-kopi.png" alt="" /></div>
+              <div class="kasir-mini-slot"><img src="assets/images/stamp-roti.png" alt="" /></div>
+              <div class="kasir-mini-slot"><img src="assets/images/stamp-kopi.png" alt="" /></div>
+              <div class="kasir-mini-slot"><img src="assets/images/stamp-roti.png" alt="" /></div>
+              <div class="kasir-mini-slot"><img src="assets/images/stamp-kopi.png" alt="" /></div>
+              <div class="kasir-mini-slot"><img src="assets/images/stamp-roti.png" alt="" /></div>
+              <div id="kasir-slot-8" class="kasir-mini-slot"><img id="kasir-slot-8-img" src="assets/images/stamp-kopi.png" alt="" /></div>
+            </div>
+
+            <!-- Quick Select Items -->
+            <div class="kasir-menu-grid">
+              <div id="kasir-item-1" class="kasir-item">
+                <div>
+                  <div class="kasir-item-title">Iced Latte</div>
+                  <div class="kasir-item-sub">Coffee · Rp 38.000</div>
+                </div>
+                <span id="kasir-check-1" class="mono" style="color: #64D2FF; font-weight: 700;">✓ Dipilih</span>
+              </div>
+              <div id="kasir-item-2" class="kasir-item">
+                <div>
+                  <div class="kasir-item-title">Butter Croissant</div>
+                  <div class="kasir-item-sub">Pastry · Rp 32.000</div>
+                </div>
+                <span id="kasir-check-2" class="mono" style="color: #64D2FF; font-weight: 700;">✓ Dipilih</span>
+              </div>
+            </div>
+
+            <div id="kasir-submit-btn" class="kasir-submit-btn">
+              <span>Kirim Pesanan &amp; +1 Stempel</span>
+            </div>
+
+            <div id="kasir-toast" class="kasir-toast">
+              <span>✓ Pesanan ORD-4821 terkirim &amp; +1 Stempel untuk SIS-9042-718K</span>
+              <span class="mono">8/8 Siap Klaim</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SCENE 4: BUKU BESAR B2B & METRIK BENTO REAL-TIME
+         (13.11s - 17.47s)
+    ================================================================== -->
+    <section id="scene-4" class="scene">
+      <div class="b2b-wrap">
+        <div class="b2b-top">
+          <div>
+            <div class="kicker mono" style="margin-bottom: 10px;">
+              <span>DASBOR MERCHANT B2B</span>
+              <span>·</span>
+              <span>GOOGLE SHEETS WEBHOOK LIVE</span>
+            </div>
+            <h2 class="headline" style="font-size: 52px;">
+              Direktori Stempel &amp; Penukaran Pelanggan B2B
+            </h2>
+          </div>
+          <div class="stage-pill active-blue" style="font-size: 16px; padding: 12px 24px;">
+            <span>↻ Tersinkronisasi dengan Google Sheets</span>
+          </div>
+        </div>
+
+        <!-- 4 Apple Bento KPI Cards -->
+        <div class="b2b-kpi-grid">
+          <div id="kpi-1" class="b2b-kpi-card">
+            <div class="b2b-kpi-label">Total ID Kartu Aktif</div>
+            <div class="b2b-kpi-val mono">148</div>
+          </div>
+          <div id="kpi-2" class="b2b-kpi-card">
+            <div class="b2b-kpi-label">Total Stempel Ditukarkan</div>
+            <div class="b2b-kpi-val mono blue">1,240</div>
+          </div>
+          <div id="kpi-3" class="b2b-kpi-card">
+            <div class="b2b-kpi-label">Stempel Aktif Belum Ditukar</div>
+            <div class="b2b-kpi-val mono">612</div>
+          </div>
+          <div id="kpi-4" class="b2b-kpi-card">
+            <div class="b2b-kpi-label">Hadiah Siap Klaim (8/8)</div>
+            <div class="b2b-kpi-val mono emerald">19</div>
+          </div>
+        </div>
+
+        <!-- B2B Customer Ledger Table -->
+        <div id="b2b-table" class="b2b-table-card">
+          <div class="b2b-table-head">
+            <div>Customer_ID</div>
+            <div>Nama Pelanggan</div>
+            <div>Total_Stempel</div>
+            <div>Total_Klaim</div>
+            <div style="text-align: right;">Aksi Kasir</div>
+          </div>
+          <div class="b2b-table-row active-row">
+            <div class="mono" style="color: #64D2FF; font-weight: 700;">SIS-9042-718K</div>
+            <div>
+              <strong>Pelanggan Sissi</strong>
+              <span style="color: #64D2FF; font-size: 15px; margin-left: 8px;">· Aktif di Kartu 3D</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 16px;">
+              <span class="mono" style="color: #6EE7B7; font-weight: 700;">8 / 8</span>
+              <div class="progress-track"><div class="progress-fill" style="width: 100%;"></div></div>
+            </div>
+            <div class="mono" style="font-weight: 700;">24</div>
+            <div style="text-align: right;">
+              <span class="stage-pill active-blue">★ Tukar 8 Stempel</span>
+            </div>
+          </div>
+          <div class="b2b-table-row">
+            <div class="mono" style="color: #64D2FF; font-weight: 600;">SIS-4819-302M</div>
+            <div><strong>Nadia Pramesti</strong> <span style="color: #B4B4BC; font-size: 15px; margin-left: 8px;">· Sissi VIP Member</span></div>
+            <div style="display: flex; align-items: center; gap: 16px;">
+              <span class="mono" style="color: #C7C7CC;">6 / 8</span>
+              <div class="progress-track"><div class="progress-fill" style="width: 75%; background: #0071E3;"></div></div>
+            </div>
+            <div class="mono" style="font-weight: 700;">32</div>
+            <div style="text-align: right;">
+              <span class="stage-pill">+ Stempel +1</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SCENE 5: OUTRO / PUNCHLINE
+         (17.47s - 20.00s)
+    ================================================================== -->
+    <section id="scene-5" class="scene">
+      <div class="outro-wrap">
+        <div class="outro-cards-row">
+          <div id="outro-card-left" class="outro-card-box" style="background: #4A4928;">
+            <img src="assets/images/kartu-depan.png" alt="Sissi Heritage Front" class="card-bg" />
+            <div class="cardholder-name" style="font-size: 16px;">PELANGGAN SISSI</div>
+            <div class="holo-overlay"></div>
+          </div>
+          <div id="outro-card-right" class="outro-card-box" style="background: #EFE5D1;">
+            <img src="assets/images/kartu-belakang-kosong.png" alt="Sissi Heritage Back" class="card-bg" />
+            <div class="back-id-badge mono" style="font-size: 13px;">ID · SIS-9042-718K</div>
+            <div class="stamp-grid-overlay">
+              <div class="stamp-slot" style="grid-row:1;grid-column:1;"><img src="assets/images/stamp-roti.png" alt=""/></div>
+              <div class="stamp-slot" style="grid-row:1;grid-column:2;"><img src="assets/images/stamp-kopi.png" alt=""/></div>
+              <div class="stamp-slot" style="grid-row:1;grid-column:3;"><img src="assets/images/stamp-roti.png" alt=""/></div>
+              <div class="stamp-slot" style="grid-row:1;grid-column:4;"><img src="assets/images/stamp-kopi.png" alt=""/></div>
+              <div class="stamp-slot" style="grid-row:1;grid-column:5;"><img src="assets/images/stamp-roti.png" alt=""/></div>
+              <div class="stamp-slot" style="grid-row:2;grid-column:2;"><img src="assets/images/stamp-kopi.png" alt=""/></div>
+              <div class="stamp-slot" style="grid-row:2;grid-column:3;"><img src="assets/images/stamp-roti.png" alt=""/></div>
+              <div class="stamp-slot" style="grid-row:2;grid-column:4;"><img src="assets/images/stamp-kopi.png" alt=""/></div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="headline" style="font-size: 64px;">
+            Sissi Heritage <span class="accent-cream">Digital Loyalty Pass</span>
+          </h2>
+          <p class="subhead" style="max-width: 900px; margin: 14px auto 0; color: #C7C7CC;">
+            The Old Corner Hits Differen · Kartu 3D Tanpa Login, Portal Kasir QR &amp; Dasbor B2B Real-Time
+          </p>
+        </div>
+
+        <div class="viyond-badge">
+          <span>Powered by</span>
+          <img src="assets/images/viyond-logo-white.png" alt="Viyond" />
+          <strong style="color: #F5F5F7;">Viyond</strong>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    // Pure, deterministic, seek-safe timeline controller (0.0s - 20.0s)
+    // Beat grid from happy-beats-business-moves-vol-12-by-ende-dot-app (109.96 BPM)
+    const BEATS = [
+      0.56, 1.09, 1.64, 2.19, 2.73, 3.27, 3.82, 4.39, 4.91, 5.34,
+      6.00, 6.56, 7.09, 7.64, 8.19, 8.74, 9.29, 9.83, 10.37, 10.93,
+      11.46, 12.02, 12.55, 13.11, 13.64, 14.20, 14.73, 15.29, 15.84, 16.38,
+      16.93, 17.47, 18.02, 18.56, 19.10, 19.66, 20.19
+    ];
+
+    function clamp(val, min, max) {
+      return Math.max(min, Math.min(max, val));
+    }
+
+    function progress(t, start, duration) {
+      return clamp((t - start) / duration, 0, 1);
+    }
+
+    function easeOutCubic(x) {
+      return 1 - Math.pow(1 - x, 3);
+    }
+
+    function easeInOutCubic(x) {
+      return x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+    }
+
+    function easeOutBack(x) {
+      const c1 = 1.70158;
+      const c3 = c1 + 1;
+      return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2);
+    }
+
+    // Audio-reactive pulse envelope sampled synchronously from the 109.96 BPM beat grid
+    function getAudioPulse(t) {
+      let minDiff = 999;
+      for (let i = 0; i < BEATS.length; i++) {
+        const d = Math.abs(t - BEATS[i]);
+        if (d < minDiff) minDiff = d;
+      }
+      return Math.exp(-Math.pow(minDiff / 0.14, 2));
+    }
+
+    function renderAtTime(t) {
+      const pulse = getAudioPulse(t);
+
+      // Subtle audio-reactive ambient glow modulation
+      const ambient = document.getElementById('ambient-glow');
+      const glowScale = 1 + pulse * 0.06;
+      const glowOpacity = 0.78 + pulse * 0.22;
+      ambient.style.transform = `translate(-50%, -50%) scale(${glowScale.toFixed(3)})`;
+      ambient.style.opacity = glowOpacity.toFixed(3);
+
+      // Top navigation active indicator
+      const navFront = document.getElementById('nav-front');
+      const navGrid = document.getElementById('nav-grid');
+      const navPwa = document.getElementById('nav-pwa');
+      const navB2b = document.getElementById('nav-b2b');
+      navFront.className = t < 4.39 || t >= 17.47 ? 'active' : '';
+      navGrid.className = t >= 4.39 && t < 7.09 ? 'active' : '';
+      navPwa.className = t >= 7.09 && t < 13.11 ? 'active' : '';
+      navB2b.className = t >= 13.11 && t < 17.47 ? 'active' : '';
+
+      // =====================================================
+      // SCENE 1 & 2 (0.00s -> 8.74s)
+      // =====================================================
+      const s12 = document.getElementById('scene-1-2');
+      if (t < 8.74) {
+        const enterP = easeOutCubic(progress(t, 0.0, 0.45));
+        const exitP = easeOutCubic(progress(t, 8.38, 0.36));
+        const vis = enterP * (1 - exitP);
+        s12.style.opacity = vis.toFixed(3);
+        s12.style.transform = `translateY(${((1 - enterP) * 24 - exitP * 20).toFixed(1)}px)`;
+
+        // Copy swap at 4.39s (// beat-locked: 4.39s)
+        const headline = document.getElementById('s12-headline');
+        const subhead = document.getElementById('s12-subhead');
+        const stampCount = document.getElementById('s12-stamp-count');
+        const faceLabel = document.getElementById('stage-face-label');
+        const flipPill = document.getElementById('flip-pill');
+        const drawerStatus = document.getElementById('stage-drawer-status');
+
+        if (t < 4.25) {
+          headline.innerHTML = 'Tanpa unduh aplikasi.<br /><span class="accent-cream">Tanpa login.</span>';
+          subhead.textContent = 'Kartu loyalitas 3D bertekstur metalik-holografik yang miring mengikuti sensor gerak ponsel dan tersimpan permanen di browser Anda.';
+          faceLabel.textContent = 'Sisi Depan · Sissi Heritage (/kartu-depan.png)';
+          flipPill.textContent = 'Balik ke Belakang';
+          flipPill.className = 'stage-pill';
+          drawerStatus.textContent = 'Balik ke Belakang untuk Menu Pintasan & Cadangan';
+        } else {
+          headline.innerHTML = 'Balik 180°.<br /><span class="accent-cream">Kumpulkan 8 stempel.</span>';
+          subhead.textContent = 'Setiap pembelian kopi & croissant menambah stempel di balik kartu, lengkap dengan kode QR unik dan pintasan aplikasi layar utama (PWA).';
+          faceLabel.textContent = 'Sisi Belakang · 8 Stempel & QR (/kartu-belakang-kosong.png)';
+          flipPill.textContent = 'Sisi Belakang Aktif';
+          flipPill.className = 'stage-pill active-blue';
+          drawerStatus.textContent = 'Menu Tarik Pintasan PWA Aktif di Bawah ↓';
+        }
+
+        // 3D Tilt + Floating + 180 deg Flip at 4.39s (// beat-locked: 4.39s)
+        const flipP = easeInOutCubic(progress(t, 4.15, 0.62));
+        const flipDeg = flipP * 180;
+        const floatY = Math.sin(t * 2.1) * 10;
+        const tiltRx = Math.sin(t * 1.6) * 8.5;
+        const tiltRy = Math.cos(t * 1.3) * 12.0;
+
+        document.getElementById('stage-tilt-readout').textContent =
+          `Kemiringan ${tiltRx >= 0 ? '+' : ''}${tiltRx.toFixed(1)}° / ${tiltRy >= 0 ? '+' : ''}${tiltRy.toFixed(1)}°`;
+
+        const cardRoot = document.getElementById('card-3d-root');
+        cardRoot.style.transform =
+          `translateY(${floatY.toFixed(1)}px) rotateX(${tiltRx.toFixed(2)}deg) rotateY(${(flipDeg + tiltRy).toFixed(2)}deg)`;
+
+        // Holographic shimmer & specular glare position
+        const gx = Math.round(50 + (tiltRy / 12) * 35);
+        const gy = Math.round(50 - (tiltRx / 8.5) * 35);
+        const frontGlare = document.getElementById('front-glare');
+        frontGlare.style.background =
+          `radial-gradient(circle at ${gx}% ${gy}%, rgba(255, 255, 255, ${0.28 + pulse * 0.08}) 0%, rgba(251, 191, 36, 0.12) 32%, transparent 65%)`;
+
+        // Sequential stamps on the back face (// beat-grid: 5.34s, 6.00s, 6.56s)
+        const s6P = easeOutBack(progress(t, 5.34, 0.28));
+        const s7P = easeOutBack(progress(t, 6.00, 0.28));
+        const s8P = easeOutBack(progress(t, 6.56, 0.28));
+
+        const slot6 = document.getElementById('stamp-slot-6');
+        const slot7 = document.getElementById('stamp-slot-7');
+        const slot8 = document.getElementById('stamp-slot-8');
+
+        slot6.style.opacity = clamp(s6P, 0, 1).toFixed(2);
+        slot6.style.transform = `scale(${s6P.toFixed(3)})`;
+
+        slot7.style.opacity = clamp(s7P, 0, 1).toFixed(2);
+        slot7.style.transform = `scale(${s7P.toFixed(3)})`;
+
+        slot8.style.opacity = clamp(s8P, 0, 1).toFixed(2);
+        slot8.style.transform = `scale(${s8P.toFixed(3)})`;
+
+        let currentCount = 5;
+        if (t >= 5.34) currentCount = 6;
+        if (t >= 6.00) currentCount = 7;
+        if (t >= 6.56) currentCount = 8;
+        stampCount.textContent =
+          currentCount === 8
+            ? '8 / 8 Stempel Aktif · Hadiah Siap Klaim!'
+            : `${currentCount} / 8 Stempel Aktif`;
+
+        // Slide-up PWA Drawer at 6.85s (// beat-locked: 7.09s)
+        const drawerP = easeOutCubic(progress(t, 6.75, 0.42));
+        const drawer = document.getElementById('slide-up-drawer');
+        drawer.style.opacity = drawerP.toFixed(3);
+        drawer.style.transform = `translateY(${((1 - drawerP) * 130).toFixed(1)}px)`;
+      } else {
+        s12.style.opacity = '0';
+      }
+
+      // =====================================================
+      // SCENE 3: KASIR B2B PORTAL (8.74s -> 13.11s)
+      // // beat-locked: 8.74s
+      // =====================================================
+      const s3 = document.getElementById('scene-3');
+      if (t >= 8.74 && t < 13.11) {
+        const enterP = easeOutCubic(progress(t, 8.74, 0.40));
+        const exitP = easeOutCubic(progress(t, 12.75, 0.36));
+        const vis = enterP * (1 - exitP);
+        s3.style.opacity = vis.toFixed(3);
+        s3.style.transform = `translateY(${((1 - enterP) * 26 - exitP * 20).toFixed(1)}px)`;
+
+        // Beat-grid menu item selections (// beat-grid: 9.83s, 10.37s, submit at 11.46s)
+        const item1 = document.getElementById('kasir-item-1');
+        const item2 = document.getElementById('kasir-item-2');
+        const check1 = document.getElementById('kasir-check-1');
+        const check2 = document.getElementById('kasir-check-2');
+
+        const sel1 = t >= 9.83;
+        const sel2 = t >= 10.37;
+        item1.className = sel1 ? 'kasir-item selected' : 'kasir-item';
+        check1.style.opacity = sel1 ? '1' : '0.25';
+        check1.textContent = sel1 ? '✓ Dipilih' : 'Pilih';
+
+        item2.className = sel2 ? 'kasir-item selected' : 'kasir-item';
+        check2.style.opacity = sel2 ? '1' : '0.25';
+        check2.textContent = sel2 ? '✓ Dipilih' : 'Pilih';
+
+        // Submit press at 11.46s
+        const submitted = t >= 11.46;
+        const slot8Img = document.getElementById('kasir-slot-8-img');
+        const slot8Box = document.getElementById('kasir-slot-8');
+        const stampNum = document.getElementById('kasir-stamp-num');
+        const toast = document.getElementById('kasir-toast');
+        const submitBtn = document.getElementById('kasir-submit-btn');
+
+        const pop8 = easeOutBack(progress(t, 11.46, 0.30));
+        slot8Img.style.opacity = submitted ? '1' : '0';
+        slot8Img.style.transform = `scale(${pop8.toFixed(3)})`;
+        slot8Box.style.background = submitted ? '#EFE5D1' : '#0B0B0D';
+        stampNum.textContent = submitted ? '8/8' : '7/8';
+        stampNum.style.color = submitted ? '#6EE7B7' : '#F5F5F7';
+
+        const btnPress = t >= 11.36 && t < 11.58 ? 0.96 : 1.0;
+        submitBtn.style.transform = `scale(${btnPress})`;
+
+        const toastP = easeOutCubic(progress(t, 11.50, 0.32));
+        toast.style.opacity = toastP.toFixed(3);
+        toast.style.transform = `translateY(${((1 - toastP) * 16).toFixed(1)}px)`;
+      } else {
+        s3.style.opacity = '0';
+      }
+
+      // =====================================================
+      // SCENE 4: B2B GOOGLE SHEETS LEDGER (13.11s -> 17.47s)
+      // // beat-locked: 13.11s
+      // =====================================================
+      const s4 = document.getElementById('scene-4');
+      if (t >= 13.11 && t < 17.47) {
+        const enterP = easeOutCubic(progress(t, 13.11, 0.40));
+        const exitP = easeOutCubic(progress(t, 17.10, 0.37));
+        const vis = enterP * (1 - exitP);
+        s4.style.opacity = vis.toFixed(3);
+        s4.style.transform = `translateY(${((1 - enterP) * 24 - exitP * 20).toFixed(1)}px)`;
+
+        // 4 Bento KPI Cards sequential reveal (// beat-grid: 13.64s, 14.20s, 14.73s, 15.29s)
+        const kpiTimes = [13.40, 13.64, 14.20, 14.73];
+        for (let i = 0; i < 4; i++) {
+          const kp = easeOutCubic(progress(t, kpiTimes[i], 0.35));
+          const el = document.getElementById(`kpi-${i + 1}`);
+          el.style.opacity = kp.toFixed(3);
+          el.style.transform = `translateY(${((1 - kp) * 22).toFixed(1)}px)`;
+        }
+
+        const tableP = easeOutCubic(progress(t, 15.10, 0.42));
+        const tableEl = document.getElementById('b2b-table');
+        tableEl.style.opacity = tableP.toFixed(3);
+        tableEl.style.transform = `translateY(${((1 - tableP) * 22).toFixed(1)}px)`;
+      } else {
+        s4.style.opacity = '0';
+      }
+
+      // =====================================================
+      // SCENE 5: OUTRO / PUNCHLINE (17.47s -> 20.00s)
+      // // beat-locked: 17.47s
+      // =====================================================
+      const s5 = document.getElementById('scene-5');
+      if (t >= 17.47) {
+        const enterP = easeOutCubic(progress(t, 17.47, 0.45));
+        s5.style.opacity = enterP.toFixed(3);
+        s5.style.transform = `scale(${(0.96 + enterP * 0.04).toFixed(3)})`;
+
+        const floatLeft = Math.sin(t * 2.0) * 6;
+        const floatRight = Math.cos(t * 2.0) * 6;
+        document.getElementById('outro-card-left').style.transform =
+          `translateY(${floatLeft.toFixed(1)}px) rotate(-2deg)`;
+        document.getElementById('outro-card-right').style.transform =
+          `translateY(${floatRight.toFixed(1)}px) rotate(2deg)`;
+      } else {
+        s5.style.opacity = '0';
+      }
+    }
+
+    // Expose seek function for frame-accurate Playwright capture & Hyperframes
+    window.seekTo = function(timeInSeconds) {
+      renderAtTime(timeInSeconds);
+    };
+
+    // Default interactive playback when opened in browser preview
+    if (!window.__MANUAL_SEEK__) {
+      const startWall = performance.now();
+      function tick(now) {
+        if (window.__MANUAL_SEEK__) return;
+        const elapsed = ((now - startWall) / 1000) % 20.0;
+        renderAtTime(elapsed);
+        requestAnimationFrame(tick);
+      }
+      renderAtTime(0);
+      requestAnimationFrame(tick);
+    }
+  </script>
+</body>
+</html>

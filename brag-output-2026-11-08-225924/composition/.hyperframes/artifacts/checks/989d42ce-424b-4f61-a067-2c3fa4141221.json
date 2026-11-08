@@ -1,0 +1,4182 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": false,
+    "errorCount": 1,
+    "warningCount": 24,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"0.2\" data-track-index=\"11\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"1.9\" data-track-index=\"12\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"3.1\" data-track-index=\"13\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"5.0\" data-track-index=\"14\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"7.0\" data-track-index=\"15\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"8.74\" data-track-index=\"16\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"12.02\" data-track-index=\"17\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"13.11\" data-track-index=\"18\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"13.38\" data-track-index=\"19\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"13.66\" data-track-index=\"20\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"13.93\" data-track-index=\"21\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"14.20\" data-track-index=\"22\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"14.48\" data-track-index=\"23\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"14.75\" data-track-index=\"24\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"15.84\" data-track-index=\"25\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"16.38\" data-track-index=\"26\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"16.93\" data-track-index=\"27\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"18.02\" data-track-index=\"28\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"18.16\" data-track-index=\"29\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"18.30\" data-track-index=\"30\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"18.44\" data-track-index=\"31\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<audio data-start=\"19.66\" data-track-index=\"32\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "duplicate_media_discovery_risk",
+        "severity": "warning",
+        "message": "Detected 2 matching img entries with the same source/start/duration.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+      },
+      {
+        "code": "media_missing_id",
+        "severity": "error",
+        "message": "<audio> has data-start but no id attribute. The renderer requires id to discover media elements, so this audio will be SILENT in renders.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a unique id attribute: <audio id=\"my-audio\" ...>"
+      },
+      {
+        "code": "composition_file_too_large",
+        "severity": "warning",
+        "message": "This HTML composition file has 307 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/madepasekmaesagautama/antigravity/Vespera-Metal-Loyalty-Pass-&-B2B-Console/brag-output-2026-11-08-225924/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Split coherent scenes or layers into separate .html files under compositions/, then mount them from the parent with data-composition-src so each file stays small enough to inspect, revise, and validate independently."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 18,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-0\" is 0.18s but its slot (data-duration) is 0.50s — the slot is shortened to the media length when rendered. Set data-duration to ~0.18s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-2\" is 0.06s but its slot (data-duration) is 0.30s — the slot is shortened to the media length when rendered. Set data-duration to ~0.06s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-3\" is 0.06s but its slot (data-duration) is 0.30s — the slot is shortened to the media length when rendered. Set data-duration to ~0.06s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-5\" is 0.15s but its slot (data-duration) is 0.50s — the slot is shortened to the media length when rendered. Set data-duration to ~0.15s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-7\" is 0.01s but its slot (data-duration) is 0.20s — the slot is shortened to the media length when rendered. Set data-duration to ~0.01s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-8\" is 0.01s but its slot (data-duration) is 0.20s — the slot is shortened to the media length when rendered. Set data-duration to ~0.01s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-9\" is 0.01s but its slot (data-duration) is 0.20s — the slot is shortened to the media length when rendered. Set data-duration to ~0.01s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-10\" is 0.01s but its slot (data-duration) is 0.20s — the slot is shortened to the media length when rendered. Set data-duration to ~0.01s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-11\" is 0.01s but its slot (data-duration) is 0.20s — the slot is shortened to the media length when rendered. Set data-duration to ~0.01s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-12\" is 0.01s but its slot (data-duration) is 0.20s — the slot is shortened to the media length when rendered. Set data-duration to ~0.01s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-13\" is 0.01s but its slot (data-duration) is 0.20s — the slot is shortened to the media length when rendered. Set data-duration to ~0.01s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-14\" is 0.14s but its slot (data-duration) is 0.50s — the slot is shortened to the media length when rendered. Set data-duration to ~0.14s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-15\" is 0.06s but its slot (data-duration) is 0.30s — the slot is shortened to the media length when rendered. Set data-duration to ~0.06s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-17\" is 0.18s but its slot (data-duration) is 0.50s — the slot is shortened to the media length when rendered. Set data-duration to ~0.18s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-18\" is 0.01s but its slot (data-duration) is 0.20s — the slot is shortened to the media length when rendered. Set data-duration to ~0.01s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-19\" is 0.01s but its slot (data-duration) is 0.20s — the slot is shortened to the media length when rendered. Set data-duration to ~0.01s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-20\" is 0.01s but its slot (data-duration) is 0.20s — the slot is shortened to the media length when rendered. Set data-duration to ~0.01s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      },
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"hf-audio-21\" is 0.65s but its slot (data-duration) is 1.80s — the slot is shortened to the media length when rendered. Set data-duration to ~0.65s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "sissi-cinematic",
+          "data-start": "0",
+          "data-duration": "22",
+          "data-fps": "30",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      }
+    ]
+  },
+  "layout": {
+    "ok": false,
+    "errorCount": 5,
+    "warningCount": 1,
+    "infoCount": 45,
+    "findings": [
+      {
+        "code": "canvas_covered",
+        "severity": "error",
+        "time": 1.222,
+        "selector": "#vignette",
+        "message": "An opaque element covers the canvas above every other visible clip, so the frame shows only it.",
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "fixHint": "Move the full-frame element below the content (earlier in the DOM or a lower z-index / track), or mark a deliberate full-frame card with data-layout-allow-occlusion.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "firstSeen": 1.222,
+        "lastSeen": 20.778,
+        "occurrences": 9,
+        "heldMs": 0,
+        "times": [
+          1.222,
+          3.667,
+          6.111,
+          8.556,
+          11,
+          13.444,
+          15.889,
+          18.333,
+          20.778
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.444,
+        "selector": "#cnt-wrap > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1180,
+          "top": 330.1,
+          "right": 1455.59,
+          "bottom": 368.1,
+          "width": 275.59,
+          "height": 38
+        },
+        "containerSelector": "#vignette",
+        "text": "Stempel Aktif",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1180,
+          "y": 330.1,
+          "width": 275.59,
+          "height": 38
+        },
+        "firstSeen": 13.444,
+        "lastSeen": 15.889,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          13.444,
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.444,
+        "selector": "#cnt",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1180,
+          "top": 336.1,
+          "right": 1306.5,
+          "bottom": 640.1,
+          "width": 126.5,
+          "height": 304
+        },
+        "containerSelector": "#vignette",
+        "text": "2",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1180,
+          "y": 336.1,
+          "width": 126.5,
+          "height": 304
+        },
+        "firstSeen": 13.444,
+        "lastSeen": 15.889,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          13.444,
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.444,
+        "selector": "#cnt-wrap > div:nth-of-type(2) > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1306.5,
+          "top": 438.1,
+          "right": 1572.5,
+          "bottom": 610.1,
+          "width": 266,
+          "height": 172
+        },
+        "containerSelector": "#vignette",
+        "text": "/ 8",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1306.5,
+          "y": 438.1,
+          "width": 266,
+          "height": 172
+        },
+        "firstSeen": 13.444,
+        "lastSeen": 15.889,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          13.444,
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.444,
+        "selector": "#cnt-wrap > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1180,
+          "top": 619.6,
+          "right": 1504,
+          "bottom": 659.6,
+          "width": 324,
+          "height": 40
+        },
+        "containerSelector": "#vignette",
+        "text": "ID · SIS-9042-718K",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1180,
+          "y": 619.6,
+          "width": 324,
+          "height": 40
+        },
+        "firstSeen": 13.444,
+        "lastSeen": 15.889,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          13.444,
+          15.889
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 13.125,
+        "selector": "#w1",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1180,
+          "top": 419.5,
+          "right": 1513.58,
+          "bottom": 596.05,
+          "width": 333.58,
+          "height": 176.55
+        },
+        "containerSelector": "#cnt",
+        "text": "Balik kartunya.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1180,
+          "y": 419.5,
+          "width": 333.58,
+          "height": 176.55
+        },
+        "firstSeen": 13.125,
+        "lastSeen": 13.25,
+        "occurrences": 2,
+        "heldMs": 125,
+        "times": [
+          13.125,
+          13.25
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 1.222,
+        "selector": "#hook",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 321.44,
+          "top": 789,
+          "right": 996.3,
+          "bottom": 920,
+          "width": 674.86,
+          "height": 131
+        },
+        "containerSelector": "#vignette",
+        "text": "Kartu loyalitas",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 321.44,
+          "y": 789,
+          "width": 674.86,
+          "height": 131
+        },
+        "firstSeen": 1.222,
+        "lastSeen": 1.222,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          1.222
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 1.222,
+        "selector": "#hook > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 996.3,
+          "top": 789,
+          "right": 1598.56,
+          "bottom": 920,
+          "width": 602.27,
+          "height": 131
+        },
+        "containerSelector": "#vignette",
+        "text": "selalu hilang.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 996.3,
+          "y": 789,
+          "width": 602.27,
+          "height": 131
+        },
+        "firstSeen": 1.222,
+        "lastSeen": 1.222,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          1.222
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 3.667,
+        "selector": "#p1",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 339.27,
+          "top": 429,
+          "right": 1580.72,
+          "bottom": 560,
+          "width": 1241.45,
+          "height": 131
+        },
+        "containerSelector": "#vignette",
+        "text": "Kartu kertas hilang di saku.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 339.27,
+          "y": 429,
+          "width": 1241.45,
+          "height": 131
+        },
+        "firstSeen": 3.667,
+        "lastSeen": 3.667,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          3.667
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 5.125,
+        "selector": "#p1",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 339.27,
+          "top": 422.7,
+          "right": 1580.72,
+          "bottom": 553.7,
+          "width": 1241.45,
+          "height": 131
+        },
+        "containerSelector": "#p2",
+        "text": "Kartu kertas hilang di saku.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 339.27,
+          "y": 422.7,
+          "width": 1241.45,
+          "height": 131
+        },
+        "firstSeen": 5.125,
+        "lastSeen": 5.125,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          5.125
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 6.111,
+        "selector": "#p2",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 238.94,
+          "top": 429,
+          "right": 1413.86,
+          "bottom": 560,
+          "width": 1174.92,
+          "height": 131
+        },
+        "containerSelector": "#vignette",
+        "text": "Aplikasi minta dan",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 238.94,
+          "y": 429,
+          "width": 1174.92,
+          "height": 131
+        },
+        "firstSeen": 6.111,
+        "lastSeen": 6.111,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          6.111
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 6.111,
+        "selector": "#p2 > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 904.75,
+          "top": 429,
+          "right": 1203.14,
+          "bottom": 560,
+          "width": 298.39,
+          "height": 131
+        },
+        "containerSelector": "#vignette",
+        "text": "unduh",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 904.75,
+          "y": 429,
+          "width": 298.39,
+          "height": 131
+        },
+        "firstSeen": 6.111,
+        "lastSeen": 6.111,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          6.111
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 6.111,
+        "selector": "#p2 > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1413.86,
+          "top": 429,
+          "right": 1681.05,
+          "bottom": 560,
+          "width": 267.19,
+          "height": 131
+        },
+        "containerSelector": "#vignette",
+        "text": "login.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1413.86,
+          "y": 429,
+          "width": 267.19,
+          "height": 131
+        },
+        "firstSeen": 6.111,
+        "lastSeen": 6.111,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          6.111
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 11,
+        "selector": "#s1",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1180,
+          "top": 332,
+          "right": 1620.73,
+          "bottom": 508.55,
+          "width": 440.73,
+          "height": 176.55
+        },
+        "containerSelector": "#vignette",
+        "text": "Tanpa unduhaplikasi.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1180,
+          "y": 332,
+          "width": 440.73,
+          "height": 176.55
+        },
+        "firstSeen": 11,
+        "lastSeen": 11,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 11,
+        "selector": "#s2",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1180,
+          "top": 512,
+          "right": 1598.31,
+          "bottom": 608,
+          "width": 418.31,
+          "height": 96
+        },
+        "containerSelector": "#vignette",
+        "text": "Tanpa login.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1180,
+          "y": 512,
+          "width": 418.31,
+          "height": 96
+        },
+        "firstSeen": 11,
+        "lastSeen": 11,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 11,
+        "selector": "#s3 > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1235,
+          "top": 705,
+          "right": 1769.41,
+          "bottom": 738,
+          "width": 534.41,
+          "height": 33
+        },
+        "containerSelector": "#vignette",
+        "text": "Tersimpan Permanen di Perangkat (Anonim)",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1235,
+          "y": 705,
+          "width": 534.41,
+          "height": 33
+        },
+        "firstSeen": 11,
+        "lastSeen": 11,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 11,
+        "selector": "#tele",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 438.39,
+          "top": 905,
+          "right": 623.2,
+          "bottom": 942,
+          "width": 184.81,
+          "height": 37
+        },
+        "containerSelector": "#vignette",
+        "text": "Kemiringan",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 438.39,
+          "y": 905,
+          "width": 184.81,
+          "height": 37
+        },
+        "firstSeen": 11,
+        "lastSeen": 11,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 11,
+        "selector": "#tele-v",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 623.2,
+          "top": 905,
+          "right": 841.61,
+          "bottom": 942,
+          "width": 218.41,
+          "height": 37
+        },
+        "containerSelector": "#vignette",
+        "text": "-2.1° / -1.3°",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 623.2,
+          "y": 905,
+          "width": 218.41,
+          "height": 37
+        },
+        "firstSeen": 11,
+        "lastSeen": 11,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#kasir > div:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 49.36,
+          "top": 13.41,
+          "right": 254.42,
+          "bottom": 44.17,
+          "width": 205.07,
+          "height": 30.77
+        },
+        "containerSelector": "#vignette",
+        "text": "‹ Kembali ke Kartu",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 49.36,
+          "y": 13.41,
+          "width": 205.07,
+          "height": 30.77
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#kasir > div:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 813.96,
+          "top": 13.41,
+          "right": 1090.32,
+          "bottom": 44.17,
+          "width": 276.36,
+          "height": 30.77
+        },
+        "containerSelector": "#vignette",
+        "text": "Sissi Heritage · Kasir B2B",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 813.96,
+          "y": 13.41,
+          "width": 276.36,
+          "height": 30.77
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#kasir > div:nth-of-type(1) > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1676.5,
+          "top": 13.41,
+          "right": 1870.64,
+          "bottom": 44.17,
+          "width": 194.14,
+          "height": 30.77
+        },
+        "containerSelector": "#vignette",
+        "text": "QR Scan Verified",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1676.5,
+          "y": 13.41,
+          "width": 194.14,
+          "height": 30.77
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#kasir > div:nth-of-type(2) > div:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 124.22,
+          "top": 306.19,
+          "right": 671.35,
+          "bottom": 403.61,
+          "width": 547.14,
+          "height": 97.42
+        },
+        "containerSelector": "#vignette",
+        "text": "SIS-9042-718K",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 124.22,
+          "y": 306.19,
+          "width": 547.14,
+          "height": 97.42
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#kasir > div:nth-of-type(2) > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 124.22,
+          "top": 444.63,
+          "right": 369.15,
+          "bottom": 478.47,
+          "width": 244.93,
+          "height": 33.84
+        },
+        "containerSelector": "#vignette",
+        "text": "Stempel Aktif",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 124.22,
+          "y": 444.63,
+          "width": 244.93,
+          "height": 33.84
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#kcnt",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 124.22,
+          "top": 599.48,
+          "right": 187.4,
+          "bottom": 748.18,
+          "width": 63.18,
+          "height": 148.7
+        },
+        "containerSelector": "#vignette",
+        "text": "7",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 124.22,
+          "y": 599.48,
+          "width": 63.18,
+          "height": 148.7
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#kasir > div:nth-of-type(2) > div:nth-of-type(5) > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 187.4,
+          "top": 647.68,
+          "right": 326.87,
+          "bottom": 733.82,
+          "width": 139.47,
+          "height": 86.14
+        },
+        "containerSelector": "#vignette",
+        "text": "/ 8",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 187.4,
+          "y": 647.68,
+          "width": 139.47,
+          "height": 86.14
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it1 > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1031.78,
+          "top": 215.43,
+          "right": 1181.19,
+          "bottom": 254.4,
+          "width": 149.4,
+          "height": 38.97
+        },
+        "containerSelector": "#vignette",
+        "text": "Iced Latte",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1031.78,
+          "y": 215.43,
+          "width": 149.4,
+          "height": 38.97
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it1 > div:nth-of-type(1) > small:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1031.78,
+          "top": 258.5,
+          "right": 1101.41,
+          "bottom": 284.14,
+          "width": 69.62,
+          "height": 25.64
+        },
+        "containerSelector": "#vignette",
+        "text": "Coffee",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1031.78,
+          "y": 258.5,
+          "width": 69.62,
+          "height": 25.64
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it1 > div:nth-of-type(2) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1556.7,
+          "top": 232.86,
+          "right": 1696.31,
+          "bottom": 266.7,
+          "width": 139.61,
+          "height": 33.84
+        },
+        "containerSelector": "#vignette",
+        "text": "Rp 38.000",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1556.7,
+          "y": 232.86,
+          "width": 139.61,
+          "height": 33.84
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it1 > div:nth-of-type(2) > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1731.46,
+          "top": 235.43,
+          "right": 1751.4,
+          "bottom": 264.14,
+          "width": 19.93,
+          "height": 28.71
+        },
+        "containerSelector": "#vignette",
+        "text": "✓",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1731.46,
+          "y": 235.43,
+          "width": 19.93,
+          "height": 28.71
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it2 > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1031.78,
+          "top": 340.54,
+          "right": 1275.58,
+          "bottom": 379.51,
+          "width": 243.8,
+          "height": 38.97
+        },
+        "containerSelector": "#vignette",
+        "text": "Hot Cappuccino",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1031.78,
+          "y": 340.54,
+          "width": 243.8,
+          "height": 38.97
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it2 > div:nth-of-type(1) > small:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1031.78,
+          "top": 383.61,
+          "right": 1101.41,
+          "bottom": 409.25,
+          "width": 69.62,
+          "height": 25.64
+        },
+        "containerSelector": "#vignette",
+        "text": "Coffee",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1031.78,
+          "y": 383.61,
+          "width": 69.62,
+          "height": 25.64
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it2 > div:nth-of-type(2) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1557.5,
+          "top": 357.97,
+          "right": 1696.31,
+          "bottom": 391.82,
+          "width": 138.81,
+          "height": 33.84
+        },
+        "containerSelector": "#vignette",
+        "text": "Rp 36.000",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1557.5,
+          "y": 357.97,
+          "width": 138.81,
+          "height": 33.84
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it2 > div:nth-of-type(2) > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1731.46,
+          "top": 360.54,
+          "right": 1751.4,
+          "bottom": 389.25,
+          "width": 19.93,
+          "height": 28.71
+        },
+        "containerSelector": "#vignette",
+        "text": "✓",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1731.46,
+          "y": 360.54,
+          "width": 19.93,
+          "height": 28.71
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it3 > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1031.78,
+          "top": 465.65,
+          "right": 1273.55,
+          "bottom": 504.62,
+          "width": 241.76,
+          "height": 38.97
+        },
+        "containerSelector": "#vignette",
+        "text": "Butter Croissant",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1031.78,
+          "y": 465.65,
+          "width": 241.76,
+          "height": 38.97
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it3 > div:nth-of-type(1) > small:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1031.78,
+          "top": 508.72,
+          "right": 1093.19,
+          "bottom": 534.36,
+          "width": 61.4,
+          "height": 25.64
+        },
+        "containerSelector": "#vignette",
+        "text": "Pastry",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1031.78,
+          "y": 508.72,
+          "width": 61.4,
+          "height": 25.64
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it3 > div:nth-of-type(2) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1557.58,
+          "top": 483.08,
+          "right": 1696.31,
+          "bottom": 516.93,
+          "width": 138.73,
+          "height": 33.84
+        },
+        "containerSelector": "#vignette",
+        "text": "Rp 32.000",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1557.58,
+          "y": 483.08,
+          "width": 138.73,
+          "height": 33.84
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it3 > div:nth-of-type(2) > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1731.46,
+          "top": 485.65,
+          "right": 1751.4,
+          "bottom": 514.36,
+          "width": 19.93,
+          "height": 28.71
+        },
+        "containerSelector": "#vignette",
+        "text": "✓",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1731.46,
+          "y": 485.65,
+          "width": 19.93,
+          "height": 28.71
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it4 > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1031.78,
+          "top": 590.76,
+          "right": 1295.45,
+          "bottom": 629.73,
+          "width": 263.67,
+          "height": 38.97
+        },
+        "containerSelector": "#vignette",
+        "text": "Almond Croissant",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1031.78,
+          "y": 590.76,
+          "width": 263.67,
+          "height": 38.97
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it4 > div:nth-of-type(1) > small:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1031.78,
+          "top": 633.83,
+          "right": 1093.19,
+          "bottom": 659.47,
+          "width": 61.4,
+          "height": 25.64
+        },
+        "containerSelector": "#vignette",
+        "text": "Pastry",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1031.78,
+          "y": 633.83,
+          "width": 61.4,
+          "height": 25.64
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it4 > div:nth-of-type(2) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1556.7,
+          "top": 608.2,
+          "right": 1696.31,
+          "bottom": 642.04,
+          "width": 139.61,
+          "height": 33.84
+        },
+        "containerSelector": "#vignette",
+        "text": "Rp 38.000",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1556.7,
+          "y": 608.2,
+          "width": 139.61,
+          "height": 33.84
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#it4 > div:nth-of-type(2) > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1731.46,
+          "top": 610.76,
+          "right": 1751.4,
+          "bottom": 639.47,
+          "width": 19.93,
+          "height": 28.71
+        },
+        "containerSelector": "#vignette",
+        "text": "✓",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1731.46,
+          "y": 610.76,
+          "width": 19.93,
+          "height": 28.71
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 15.889,
+        "selector": "#submit",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1161.25,
+          "top": 737.92,
+          "right": 1630.4,
+          "bottom": 778.94,
+          "width": 469.15,
+          "height": 41.02
+        },
+        "containerSelector": "#vignette",
+        "text": "Submit Pesanan & +1 Stempel",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1161.25,
+          "y": 737.92,
+          "width": 469.15,
+          "height": 41.02
+        },
+        "firstSeen": 15.889,
+        "lastSeen": 15.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.333,
+        "selector": "#b2b > div:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 72,
+          "top": 26.5,
+          "right": 226.5,
+          "bottom": 56.5,
+          "width": 154.5,
+          "height": 30
+        },
+        "containerSelector": "#vignette",
+        "text": "Sissi Heritage",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 72,
+          "y": 26.5,
+          "width": 154.5,
+          "height": 30
+        },
+        "firstSeen": 18.333,
+        "lastSeen": 18.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.333,
+        "selector": "#b2b > div:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 691.28,
+          "top": 26.5,
+          "right": 1201.53,
+          "bottom": 56.5,
+          "width": 510.25,
+          "height": 30
+        },
+        "containerSelector": "#vignette",
+        "text": "Direktori Stempel & Penukaran Pelanggan B2B",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 691.28,
+          "y": 26.5,
+          "width": 510.25,
+          "height": 30
+        },
+        "firstSeen": 18.333,
+        "lastSeen": 18.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.333,
+        "selector": "#b2b > div:nth-of-type(1) > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1666.31,
+          "top": 26.5,
+          "right": 1802,
+          "bottom": 56.5,
+          "width": 135.69,
+          "height": 30
+        },
+        "containerSelector": "#vignette",
+        "text": "Powered by",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1666.31,
+          "y": 26.5,
+          "width": 135.69,
+          "height": 30
+        },
+        "firstSeen": 18.333,
+        "lastSeen": 18.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.333,
+        "selector": "#k1 > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 125,
+          "top": 175.2,
+          "right": 315.06,
+          "bottom": 203.2,
+          "width": 190.06,
+          "height": 28
+        },
+        "containerSelector": "#vignette",
+        "text": "Total ID Kartu Aktif",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 125,
+          "y": 175.2,
+          "width": 190.06,
+          "height": 28
+        },
+        "firstSeen": 18.333,
+        "lastSeen": 18.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.333,
+        "selector": "#k1 > div:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 125,
+          "top": 227.2,
+          "right": 266.13,
+          "bottom": 338.2,
+          "width": 141.13,
+          "height": 111
+        },
+        "containerSelector": "#vignette",
+        "text": "128",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 125,
+          "y": 227.2,
+          "width": 141.13,
+          "height": 111
+        },
+        "firstSeen": 18.333,
+        "lastSeen": 18.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.333,
+        "selector": "#k2 > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 553,
+          "top": 180.6,
+          "right": 814.08,
+          "bottom": 208.6,
+          "width": 261.08,
+          "height": 28
+        },
+        "containerSelector": "#vignette",
+        "text": "Total Stempel Ditukarkan",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 553,
+          "y": 180.6,
+          "width": 261.08,
+          "height": 28
+        },
+        "firstSeen": 18.333,
+        "lastSeen": 18.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.333,
+        "selector": "#k2 > div:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 553,
+          "top": 232.6,
+          "right": 647.09,
+          "bottom": 343.6,
+          "width": 94.09,
+          "height": 111
+        },
+        "containerSelector": "#vignette",
+        "text": "96",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 553,
+          "y": 232.6,
+          "width": 94.09,
+          "height": 111
+        },
+        "firstSeen": 18.333,
+        "lastSeen": 18.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 20.778,
+        "selector": "#cta-t",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 381.34,
+          "top": 660,
+          "right": 1538.64,
+          "bottom": 758,
+          "width": 1157.3,
+          "height": 98
+        },
+        "containerSelector": "#vignette",
+        "text": "Sissi Heritage Digital Loyalty Pass",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 381.34,
+          "y": 660,
+          "width": 1157.3,
+          "height": 98
+        },
+        "firstSeen": 20.778,
+        "lastSeen": 20.778,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.778
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 20.778,
+        "selector": "#cta-s",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 702.3,
+          "top": 781.8,
+          "right": 1217.7,
+          "bottom": 828.8,
+          "width": 515.41,
+          "height": 47
+        },
+        "containerSelector": "#vignette",
+        "text": "The Old Corner Hits Differen",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 702.3,
+          "y": 781.8,
+          "width": 515.41,
+          "height": 47
+        },
+        "firstSeen": 20.778,
+        "lastSeen": 20.778,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.778
+        ]
+      }
+    ],
+    "duration": 22,
+    "samples": [
+      1.222,
+      3.667,
+      6.111,
+      8.556,
+      11,
+      13.444,
+      15.889,
+      18.333,
+      20.778
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 51,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 1.04:1; WCAG AA requires 4.5:1.",
+        "text": "✓",
+        "fg": "rgb(0,0,0)",
+        "bg": "rgb(6,6,7)",
+        "ratio": 1.04,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(119,119,119)",
+        "large": false,
+        "selector": "div > div:nth-of-type(12) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1722.97216796875,
+          "y": 356.4355163574219,
+          "width": 36.91796875,
+          "height": 36.917999267578125
+        },
+        "time": 15.889,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 1.04:1; WCAG AA requires 4.5:1.",
+        "text": "✓",
+        "fg": "rgb(0,0,0)",
+        "bg": "rgb(7,7,7)",
+        "ratio": 1.04,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(120,120,120)",
+        "large": false,
+        "selector": "div > div:nth-of-type(12) > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2) > span:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1722.97216796875,
+          "y": 481.5465087890625,
+          "width": 36.91796875,
+          "height": 36.91802978515625
+        },
+        "time": 15.889,
+        "times": [
+          15.889
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 1.04:1; WCAG AA requires 4.5:1.",
+        "text": "✓",
+        "fg": "rgb(0,0,0)",
+        "bg": "rgb(7,7,7)",
+        "ratio": 1.04,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(120,120,120)",
+        "large": false,
+        "selector": "div > div:nth-of-type(12) > div:nth-of-type(3) > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1722.97216796875,
+          "y": 606.6575317382812,
+          "width": 36.91796875,
+          "height": 36.91796875
+        },
+        "time": 15.889,
+        "times": [
+          15.889
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      1.222,
+      6.111,
+      11,
+      15.889,
+      20.778
+    ],
+    "checked": 40,
+    "passed": 37
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 14,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "first_frame_empty",
+        "severity": "warning",
+        "message": "Frame 0 is covered by #vignette: an opaque element over the canvas hides every other clip, and the first frame is the thumbnail on social players. Move it below the content; see canvas_covered.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 25 text elements stay under it for 0.5 s or more, the smallest \"Coffee\" at 20 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Coffee",
+        "selector": "#it1 > div:nth-of-type(1) > small:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1031.78,
+          "y": 258.5,
+          "width": 69.63,
+          "height": 25.64
+        },
+        "time": 15.875,
+        "times": [
+          10.5,
+          15.875,
+          15.875,
+          15.875,
+          15.875,
+          15.875,
+          15.875,
+          15.875,
+          15.875,
+          15.875,
+          15.875,
+          15.875,
+          15.875,
+          16.125,
+          18.125,
+          18.125,
+          18.125,
+          18.125,
+          18.25,
+          18.5,
+          18.625,
+          18.75,
+          18.75,
+          18.75,
+          18.75
+        ],
+        "fontPx": 20,
+        "floorPx": 28,
+        "seconds": 2.25,
+        "elements": [
+          {
+            "selector": "#it1 > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "Coffee",
+            "fontPx": 20,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#it2 > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "Coffee",
+            "fontPx": 20,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#it3 > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "Pastry",
+            "fontPx": 20,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#it4 > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "Pastry",
+            "fontPx": 20,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
+            "text": "Customer_ID",
+            "fontPx": 20,
+            "time": 18.75,
+            "seconds": 1
+          },
+          {
+            "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)",
+            "text": "Nama Pelanggan",
+            "fontPx": 20,
+            "time": 18.75,
+            "seconds": 1
+          },
+          {
+            "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(3)",
+            "text": "Total_Stempel",
+            "fontPx": 20,
+            "time": 18.75,
+            "seconds": 1
+          },
+          {
+            "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(4)",
+            "text": "Total_Klaim",
+            "fontPx": 20,
+            "time": 18.75,
+            "seconds": 1
+          },
+          {
+            "selector": "#k1 > div:nth-of-type(1)",
+            "text": "Total ID Kartu Aktif",
+            "fontPx": 22,
+            "time": 18.125,
+            "seconds": 1.625
+          },
+          {
+            "selector": "#k2 > div:nth-of-type(1)",
+            "text": "Total Stempel Ditukarkan",
+            "fontPx": 22,
+            "time": 18.25,
+            "seconds": 1.5
+          },
+          {
+            "selector": "#k3 > div:nth-of-type(1)",
+            "text": "Stempel Aktif Belum Ditukar",
+            "fontPx": 22,
+            "time": 18.5,
+            "seconds": 1.25
+          },
+          {
+            "selector": "#k4 > div:nth-of-type(1)",
+            "text": "Hadiah Siap Klaim (8/8)",
+            "fontPx": 22,
+            "time": 18.625,
+            "seconds": 1.125
+          },
+          {
+            "selector": "#kasir > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "‹ Kembali ke Kartu",
+            "fontPx": 24,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#kasir > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "Sissi Heritage · Kasir B2B",
+            "fontPx": 24,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#kasir > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "QR Scan Verified",
+            "fontPx": 24,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#b2b > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Sissi Heritage",
+            "fontPx": 24,
+            "time": 18.125,
+            "seconds": 1.625
+          },
+          {
+            "selector": "#b2b > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "Direktori Stempel & Penukaran Pelanggan B2B",
+            "fontPx": 24,
+            "time": 18.125,
+            "seconds": 1.625
+          },
+          {
+            "selector": "#b2b > div:nth-of-type(1) > span:nth-of-type(2)",
+            "text": "Powered by",
+            "fontPx": 24,
+            "time": 18.125,
+            "seconds": 1.625
+          },
+          {
+            "selector": "#s3 > span:nth-of-type(1)",
+            "text": "Tersimpan Permanen di Perangkat (Anonim)",
+            "fontPx": 26,
+            "time": 10.5,
+            "seconds": 1.625
+          },
+          {
+            "selector": "#kasir > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "Stempel Aktif",
+            "fontPx": 26,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#it1 > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Rp 38.000",
+            "fontPx": 26,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#it2 > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Rp 36.000",
+            "fontPx": 26,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#it3 > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Rp 32.000",
+            "fontPx": 26,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#it4 > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Rp 38.000",
+            "fontPx": 26,
+            "time": 15.875,
+            "seconds": 2.25
+          },
+          {
+            "selector": "#qrchip > span:nth-of-type(1)",
+            "text": "QR Pelanggan Terdeteksi",
+            "fontPx": 26,
+            "time": 16.125,
+            "seconds": 2
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"Kartu penuh (8/8)! Pelanggan berhak klaim reward.\" (8 words) is on screen 0.94 s (±0.01 s), under its 2.17 s floor: hold it about 0.5 s + 0.3 s a word (2.90 s here) before it leaves or changes; see references/motion.md.",
+        "text": "Kartu penuh (8/8)! Pelanggan berhak klaim reward.",
+        "selector": "#kbanner",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 176,
+          "y": 809.1,
+          "width": 610.69,
+          "height": 77
+        },
+        "time": 17.102,
+        "words": 8,
+        "seconds": 0.938,
+        "floorSeconds": 2.175,
+        "measured": [
+          {
+            "time": 16.75,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 16.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 17,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 17.125,
+            "opacity": 0.64,
+            "heightPx": 77
+          },
+          {
+            "time": 17.25,
+            "opacity": 0.96,
+            "heightPx": 77
+          },
+          {
+            "time": 17.375,
+            "opacity": 1,
+            "heightPx": 77
+          },
+          {
+            "time": 17.5,
+            "opacity": 1,
+            "heightPx": 77
+          },
+          {
+            "time": 17.625,
+            "opacity": 1,
+            "heightPx": 77
+          },
+          {
+            "time": 17.75,
+            "opacity": 1,
+            "heightPx": 77
+          },
+          {
+            "time": 17.875,
+            "opacity": 1,
+            "heightPx": 77
+          },
+          {
+            "time": 18,
+            "opacity": 1,
+            "heightPx": 77
+          },
+          {
+            "time": 18.125,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.25,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.375,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"SIS-9042-718K\" (3 words) is on screen 1.00 s (±0.01 s), under its 1.05 s floor: hold it about 0.5 s + 0.3 s a word (1.40 s here) before it leaves or changes; see references/motion.md.",
+        "text": "SIS-9042-718K",
+        "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 125,
+          "y": 511,
+          "width": 218.40999999999997,
+          "height": 37
+        },
+        "time": 18.672,
+        "words": 3,
+        "seconds": 1,
+        "floorSeconds": 1.05,
+        "measured": [
+          {
+            "time": 18.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.625,
+            "opacity": 0.24,
+            "heightPx": 37
+          },
+          {
+            "time": 18.75,
+            "opacity": 0.77,
+            "heightPx": 37
+          },
+          {
+            "time": 18.875,
+            "opacity": 0.97,
+            "heightPx": 37
+          },
+          {
+            "time": 19,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.125,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.25,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.375,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.5,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.625,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.75,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 19.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"8 / 8 · Siap Klaim\" (4 words) is on screen 1.00 s (±0.01 s), under its 1.27 s floor: hold it about 0.5 s + 0.3 s a word (1.70 s here) before it leaves or changes; see references/motion.md.",
+        "text": "8 / 8 · Siap Klaim",
+        "selector": "td.mono.ready",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 981.92,
+          "y": 511,
+          "width": 302.40999999999997,
+          "height": 37
+        },
+        "time": 18.672,
+        "words": 4,
+        "seconds": 1,
+        "floorSeconds": 1.275,
+        "measured": [
+          {
+            "time": 18.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.625,
+            "opacity": 0.24,
+            "heightPx": 37
+          },
+          {
+            "time": 18.75,
+            "opacity": 0.77,
+            "heightPx": 37
+          },
+          {
+            "time": 18.875,
+            "opacity": 0.97,
+            "heightPx": 37
+          },
+          {
+            "time": 19,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.125,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.25,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.375,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.5,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.625,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.75,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 19.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"SIS-1533-220Y\" (3 words) is on screen 1.00 s (±0.01 s), under its 1.05 s floor: hold it about 0.5 s + 0.3 s a word (1.40 s here) before it leaves or changes; see references/motion.md.",
+        "text": "SIS-1533-220Y",
+        "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 125,
+          "y": 597,
+          "width": 218.40999999999997,
+          "height": 37
+        },
+        "time": 18.672,
+        "words": 3,
+        "seconds": 1,
+        "floorSeconds": 1.05,
+        "measured": [
+          {
+            "time": 18.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.625,
+            "opacity": 0.24,
+            "heightPx": 37
+          },
+          {
+            "time": 18.75,
+            "opacity": 0.77,
+            "heightPx": 37
+          },
+          {
+            "time": 18.875,
+            "opacity": 0.97,
+            "heightPx": 37
+          },
+          {
+            "time": 19,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.125,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.25,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.375,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.5,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.625,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.75,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 19.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"Pelanggan Demo A\" (3 words) is on screen 1.00 s (±0.01 s), under its 1.05 s floor: hold it about 0.5 s + 0.3 s a word (1.40 s here) before it leaves or changes; see references/motion.md.",
+        "text": "Pelanggan Demo A",
+        "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 527.45,
+          "y": 598,
+          "width": 251.81999999999994,
+          "height": 35
+        },
+        "time": 18.672,
+        "words": 3,
+        "seconds": 1,
+        "floorSeconds": 1.05,
+        "measured": [
+          {
+            "time": 18.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.625,
+            "opacity": 0.24,
+            "heightPx": 35
+          },
+          {
+            "time": 18.75,
+            "opacity": 0.77,
+            "heightPx": 35
+          },
+          {
+            "time": 18.875,
+            "opacity": 0.97,
+            "heightPx": 35
+          },
+          {
+            "time": 19,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.125,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.25,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.375,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.5,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.625,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.75,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 19.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"SIS-7710-402M\" (3 words) is on screen 1.00 s (±0.01 s), under its 1.05 s floor: hold it about 0.5 s + 0.3 s a word (1.40 s here) before it leaves or changes; see references/motion.md.",
+        "text": "SIS-7710-402M",
+        "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 125,
+          "y": 683,
+          "width": 218.40999999999997,
+          "height": 37
+        },
+        "time": 18.672,
+        "words": 3,
+        "seconds": 1,
+        "floorSeconds": 1.05,
+        "measured": [
+          {
+            "time": 18.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.625,
+            "opacity": 0.24,
+            "heightPx": 37
+          },
+          {
+            "time": 18.75,
+            "opacity": 0.77,
+            "heightPx": 37
+          },
+          {
+            "time": 18.875,
+            "opacity": 0.97,
+            "heightPx": 37
+          },
+          {
+            "time": 19,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.125,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.25,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.375,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.5,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.625,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.75,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 19.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"Pelanggan Demo B\" (3 words) is on screen 1.00 s (±0.01 s), under its 1.05 s floor: hold it about 0.5 s + 0.3 s a word (1.40 s here) before it leaves or changes; see references/motion.md.",
+        "text": "Pelanggan Demo B",
+        "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 527.45,
+          "y": 684,
+          "width": 252.96000000000004,
+          "height": 35
+        },
+        "time": 18.672,
+        "words": 3,
+        "seconds": 1,
+        "floorSeconds": 1.05,
+        "measured": [
+          {
+            "time": 18.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.625,
+            "opacity": 0.24,
+            "heightPx": 35
+          },
+          {
+            "time": 18.75,
+            "opacity": 0.77,
+            "heightPx": 35
+          },
+          {
+            "time": 18.875,
+            "opacity": 0.97,
+            "heightPx": 35
+          },
+          {
+            "time": 19,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.125,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.25,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.375,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.5,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.625,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.75,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 19.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"SIS-2268-915R\" (3 words) is on screen 1.00 s (±0.01 s), under its 1.05 s floor: hold it about 0.5 s + 0.3 s a word (1.40 s here) before it leaves or changes; see references/motion.md.",
+        "text": "SIS-2268-915R",
+        "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 125,
+          "y": 769,
+          "width": 218.40999999999997,
+          "height": 37
+        },
+        "time": 18.672,
+        "words": 3,
+        "seconds": 1,
+        "floorSeconds": 1.05,
+        "measured": [
+          {
+            "time": 18.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.625,
+            "opacity": 0.24,
+            "heightPx": 37
+          },
+          {
+            "time": 18.75,
+            "opacity": 0.77,
+            "heightPx": 37
+          },
+          {
+            "time": 18.875,
+            "opacity": 0.97,
+            "heightPx": 37
+          },
+          {
+            "time": 19,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.125,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.25,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.375,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.5,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.625,
+            "opacity": 1,
+            "heightPx": 37
+          },
+          {
+            "time": 19.75,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 19.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"Pelanggan Demo C\" (3 words) is on screen 1.00 s (±0.01 s), under its 1.05 s floor: hold it about 0.5 s + 0.3 s a word (1.40 s here) before it leaves or changes; see references/motion.md.",
+        "text": "Pelanggan Demo C",
+        "selector": "#tbl > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 527.45,
+          "y": 770,
+          "width": 255.43000000000006,
+          "height": 35
+        },
+        "time": 18.672,
+        "words": 3,
+        "seconds": 1,
+        "floorSeconds": 1.05,
+        "measured": [
+          {
+            "time": 18.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 18.625,
+            "opacity": 0.24,
+            "heightPx": 35
+          },
+          {
+            "time": 18.75,
+            "opacity": 0.77,
+            "heightPx": 35
+          },
+          {
+            "time": 18.875,
+            "opacity": 0.97,
+            "heightPx": 35
+          },
+          {
+            "time": 19,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.125,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.25,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.375,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.5,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.625,
+            "opacity": 1,
+            "heightPx": 35
+          },
+          {
+            "time": 19.75,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 19.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"Sissi Heritage Digital Loyalty Pass\" (5 words) is on screen 1.77 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "Sissi Heritage Digital Loyalty Pass",
+        "selector": "#cta-t",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 381.34,
+          "y": 671.3,
+          "width": 1157.3,
+          "height": 98
+        },
+        "time": 20.234,
+        "words": 5,
+        "seconds": 1.77,
+        "floorSeconds": 2,
+        "measured": [
+          {
+            "time": 19.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20.125,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20.25,
+            "opacity": 0.56,
+            "heightPx": 98
+          },
+          {
+            "time": 20.375,
+            "opacity": 0.86,
+            "heightPx": 98
+          },
+          {
+            "time": 20.5,
+            "opacity": 0.98,
+            "heightPx": 98
+          },
+          {
+            "time": 20.625,
+            "opacity": 1,
+            "heightPx": 98
+          },
+          {
+            "time": 21.5,
+            "opacity": 1,
+            "heightPx": 98
+          },
+          {
+            "time": 21.625,
+            "opacity": 1,
+            "heightPx": 98
+          },
+          {
+            "time": 21.75,
+            "opacity": 1,
+            "heightPx": 98
+          },
+          {
+            "time": 21.875,
+            "opacity": 1,
+            "heightPx": 98
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"The Old Corner Hits Differen\" (5 words) is on screen 1.33 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "The Old Corner Hits Differen",
+        "selector": "#cta-s",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 702.3,
+          "y": 783.7,
+          "width": 515.3999999999999,
+          "height": 47
+        },
+        "time": 20.672,
+        "words": 5,
+        "seconds": 1.332,
+        "floorSeconds": 2,
+        "measured": [
+          {
+            "time": 20.375,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20.5,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 20.625,
+            "opacity": 0.25,
+            "heightPx": 47
+          },
+          {
+            "time": 20.75,
+            "opacity": 0.7,
+            "heightPx": 47
+          },
+          {
+            "time": 20.875,
+            "opacity": 0.92,
+            "heightPx": 47
+          },
+          {
+            "time": 21,
+            "opacity": 0.99,
+            "heightPx": 47
+          },
+          {
+            "time": 21.125,
+            "opacity": 1,
+            "heightPx": 47
+          },
+          {
+            "time": 21.5,
+            "opacity": 1,
+            "heightPx": 47
+          },
+          {
+            "time": 21.625,
+            "opacity": 1,
+            "heightPx": 47
+          },
+          {
+            "time": 21.75,
+            "opacity": 1,
+            "heightPx": 47
+          },
+          {
+            "time": 21.875,
+            "opacity": 1,
+            "heightPx": 47
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"Buka kartunya.\" (2 words) is on screen 0.86 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "Buka kartunya.",
+        "selector": "#cta-c",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 799.88,
+          "y": 863,
+          "width": 320.23000000000013,
+          "height": 56
+        },
+        "time": 21.141,
+        "words": 2,
+        "seconds": 0.863,
+        "floorSeconds": 2,
+        "measured": [
+          {
+            "time": 20.875,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 21,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 21.125,
+            "opacity": 0.45,
+            "heightPx": 56
+          },
+          {
+            "time": 21.25,
+            "opacity": 0.81,
+            "heightPx": 56
+          },
+          {
+            "time": 21.375,
+            "opacity": 0.96,
+            "heightPx": 56
+          },
+          {
+            "time": 21.5,
+            "opacity": 1,
+            "heightPx": 56
+          },
+          {
+            "time": 21.625,
+            "opacity": 1,
+            "heightPx": 56
+          },
+          {
+            "time": 21.75,
+            "opacity": 1,
+            "heightPx": 56
+          },
+          {
+            "time": 21.875,
+            "opacity": 1,
+            "heightPx": 56
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 176
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}
