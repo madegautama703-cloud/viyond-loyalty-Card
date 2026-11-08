@@ -3,15 +3,15 @@ import type { MetadataRoute } from 'next';
 export default function manifest(): MetadataRoute.Manifest {
   return {
     id: '/',
-    name: 'Vespera Metal Loyalty Pass',
-    short_name: 'Vespera',
+    name: 'Sissi Heritage Loyalty Pass',
+    short_name: 'Sissi Heritage',
     description:
-      'Interactive 3D brushed-titanium digital loyalty card with anonymous local pass storage, 10-stamp grid, QR code, and B2B console.',
+      'Kartu loyalitas digital 3D Sissi Heritage dengan orientasi giroskopik, grid 8 stempel, kode QR dinamis, dan konsol kasir B2B.',
     start_url: '/',
     scope: '/',
     display: 'standalone',
-    background_color: '#0B0D11',
-    theme_color: '#0B0D11',
+    background_color: '#000000',
+    theme_color: '#000000',
     icons: [
       {
         src: '/pwa-192x192.png',

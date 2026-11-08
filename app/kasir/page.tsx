@@ -342,9 +342,16 @@ function KasirPortalContent() {
           <span className="text-white/20" aria-hidden="true">
             |
           </span>
-          <span className="text-[14px] font-semibold tracking-[-0.025em] leading-[1.06] text-[#F5F5F7] whitespace-nowrap">
-            Sissi Heritage · Kasir B2B
-          </span>
+          <div className="flex items-center gap-2">
+            <img
+              src="/sissi-logo.png"
+              alt="Sissi Heritage Logo"
+              className="w-4 h-4 rounded-[4px] object-cover border border-white/[0.12]"
+            />
+            <span className="text-[14px] font-semibold tracking-[-0.025em] leading-[1.06] text-[#F5F5F7] whitespace-nowrap">
+              Sissi Heritage · Kasir B2B
+            </span>
+          </div>
         </div>
 
         <div className="flex items-center gap-2 text-[12px] text-[#86868B]">

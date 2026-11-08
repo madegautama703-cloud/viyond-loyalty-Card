@@ -1236,9 +1236,14 @@ export default function DigitalLoyaltyApp() {
       >
         <a
           href="#top"
-          className="text-[14px] font-semibold tracking-[-0.025em] leading-[1.06] text-[#F5F5F7] whitespace-nowrap shrink-0"
+          className="flex items-center gap-2.5 text-[14px] font-semibold tracking-[-0.025em] leading-[1.06] text-[#F5F5F7] whitespace-nowrap shrink-0 group"
         >
-          Sissi Heritage
+          <img
+            src="/sissi-logo.png"
+            alt="Sissi Heritage Logo"
+            className="w-5 h-5 rounded-md object-cover border border-white/[0.12] shadow-sm"
+          />
+          <span>Sissi Heritage</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-7">
@@ -2386,8 +2391,12 @@ export default function DigitalLoyaltyApp() {
               <div className="space-y-4">
                 <div className="p-4 rounded-2xl bg-[#000000] border border-white/[0.06] space-y-2.5 text-xs">
                   <div className="flex items-center gap-3 pb-2 border-b border-white/[0.06]">
-                    <div className="w-11 h-11 rounded-xl bg-[#4A4928] border border-white/[0.12] flex items-center justify-center font-bold text-[#EFE5D1] text-base shrink-0">
-                      sissi
+                    <div className="w-11 h-11 rounded-xl bg-[#4A4928] border border-white/[0.12] overflow-hidden flex items-center justify-center shrink-0 shadow-md">
+                      <img
+                        src="/sissi-logo.png"
+                        alt="Sissi Heritage"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <div>
                       <div className="font-semibold text-[#F5F5F7] text-sm">

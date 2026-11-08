@@ -8,29 +8,35 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Vespera Metal Loyalty Pass & B2B Console',
+  title: 'Sissi Heritage Loyalty Pass & B2B Console',
   description:
-    'Interactive 3D brushed-titanium digital loyalty card with DeviceOrientation tilt, holographic sheen, 10-stamp grid, slide-up wallet drawer, and B2B merchant redemption dashboard.',
+    'Interactive 3D digital loyalty card with DeviceOrientation tilt, 8-stamp grid, PWA shortcut, and B2B merchant console for Sissi Heritage.',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'Vespera',
+    title: 'Sissi Heritage',
   },
   icons: {
-    icon: '/icon.svg',
-    apple: '/apple-touch-icon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png', sizes: '512x512' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
   openGraph: {
-    title: 'Vespera Metal Loyalty Pass & B2B Console',
+    title: 'Sissi Heritage Loyalty Pass & B2B Console',
     description:
-      'Interactive 3D brushed-titanium digital loyalty card with DeviceOrientation tilt, holographic sheen, 10-stamp grid, slide-up wallet drawer, and B2B merchant redemption dashboard.',
+      'Interactive 3D digital loyalty card with DeviceOrientation tilt, 8-stamp grid, PWA shortcut, and B2B merchant console for Sissi Heritage.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vespera Metal Loyalty Pass & B2B Console',
+    title: 'Sissi Heritage Loyalty Pass & B2B Console',
     description:
-      'Interactive 3D brushed-titanium digital loyalty card with DeviceOrientation tilt, holographic sheen, 10-stamp grid, slide-up wallet drawer, and B2B merchant redemption dashboard.',
+      'Interactive 3D digital loyalty card with DeviceOrientation tilt, 8-stamp grid, PWA shortcut, and B2B merchant console for Sissi Heritage.',
   },
 };
 
