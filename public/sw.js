@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vespera-loyalty-pwa-v3';
+const CACHE_NAME = 'vespera-loyalty-pwa-v4';
 const ASSETS_TO_CACHE = [
   '/icon.svg',
   '/pwa-192x192.png',
@@ -32,10 +32,11 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
   const url = new URL(event.request.url);
-  // Jangan pernah meng-cache request ke API internal atau Webhook n8n eksternal
+  // Jangan pernah meng-cache request ke API internal, Webhook n8n, atau kartu gambar
   if (
     url.origin !== self.location.origin ||
     url.pathname.startsWith('/api/') ||
+    url.pathname.includes('kartu-') ||
     url.href.includes('webhook') ||
     url.href.includes('n8n')
   ) {

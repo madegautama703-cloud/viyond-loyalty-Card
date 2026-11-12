@@ -455,7 +455,7 @@ function KasirPortalContent() {
               {Array.from({ length: MAX_STAMPS }, (_, index) => {
                 const isStamped = index < activeStamps;
                 const stampSrc =
-                  index % 2 === 0 ? '/stamp-roti.png' : '/stamp-kopi.png';
+                  index % 2 === 0 ? '/stamp-kopi.png' : '/stamp-roti.png';
                 return (
                   <button
                     key={index}

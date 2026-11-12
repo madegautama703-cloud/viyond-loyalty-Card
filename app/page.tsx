@@ -1015,7 +1015,7 @@ export default function DigitalLoyaltyApp() {
   main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 20px 140px; }
   @keyframes floatCard { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-12px); } }
   .float-wrap { animation: floatCard 5.5s ease-in-out infinite; perspective: 1400px; width: min(480px, 92vw); }
-  .card-tilt { width: 100%; aspect-ratio: 2769 / 1742; transform-style: preserve-3d; transform: rotateX(var(--rx)) rotateY(var(--ry)); transition: transform 0.12s ease-out; cursor: pointer; }
+  .card-tilt { width: 100%; aspect-ratio: 1024 / 644; transform-style: preserve-3d; transform: rotateX(var(--rx)) rotateY(var(--ry)); transition: transform 0.12s ease-out; cursor: pointer; }
   .card-flipper { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transition: transform 0.75s cubic-bezier(0.22, 1, 0.36, 1); }
   .card-flipper.flipped { transform: rotateY(180deg); }
   .card-face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; border-radius: 20px; }
@@ -1024,13 +1024,13 @@ export default function DigitalLoyaltyApp() {
   .card-shell { width: 100%; height: 100%; border-radius: 20px; overflow: hidden; position: relative; box-shadow: 0 28px 60px -12px rgba(0,0,0,0.75); }
   .bg-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
   .stamp-grid {
-    position: absolute; left: 14.45%; top: 31.06%; width: 71.07%; height: 44.20%;
+    position: absolute; left: 14.36%; top: 30.90%; width: 71.19%; height: 44.41%;
     display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(2, 1fr);
-    column-gap: 4.15%; row-gap: 14.80%; z-index: 10;
+    column-gap: 4.08%; row-gap: 14.69%; z-index: 10;
   }
   .qr-box {
-    position: absolute; left: 79.75%; top: 68.85%; width: 17.02%; height: 27.10%;
-    background: #FFFFFF; border-radius: 14%; padding: 4%; display: flex; align-items: center; justify-content: center; z-index: 10;
+    position: absolute; left: 80.57%; top: 70.34%; width: 15.43%; height: 24.53%;
+    background: #FFFFFF; border-radius: 6%; padding: 2%; display: flex; align-items: center; justify-content: center; z-index: 10;
   }
 </style>
 </head>
@@ -1045,15 +1045,15 @@ export default function DigitalLoyaltyApp() {
         <div class="card-flipper" id="cardFlipper">
           <div class="card-face card-front">
             <div class="card-shell" style="position:relative;">
-              <img src="/kartu-depan.png?v=3" alt="Front" class="bg-img" />
-              <div style="position:absolute;left:5.71%;top:21.42%;max-width:85%;z-index:10;color:#EDE2CC;font-weight:600;text-transform:uppercase;letter-spacing:0.14em;font-size:13px;pointer-events:none;text-shadow:0 1px 2px rgba(0,0,0,0.4);">
+              <img src="/kartu-depan-v5.png" alt="Front" class="bg-img" />
+              <div style="position:absolute;left:5.47%;top:20.5%;max-width:85%;z-index:10;color:#EDE2CC;font-weight:600;text-transform:uppercase;letter-spacing:0.14em;font-size:13px;pointer-events:none;text-shadow:0 1px 2px rgba(0,0,0,0.4);">
                 ${frontCardholderName}
               </div>
             </div>
           </div>
           <div class="card-face card-back">
             <div class="card-shell">
-              <img src="/kartu-belakang-kosong.png" alt="Back" class="bg-img" />
+              <img src="/kartu-belakang-v5.png" alt="Back" class="bg-img" />
               <div class="stamp-grid" id="stampGrid"></div>
               <div class="qr-box">
                 <img id="qrImg" alt="QR Code" style="width:100%;height:100%;object-fit:contain;" />
@@ -1086,7 +1086,7 @@ export default function DigitalLoyaltyApp() {
       slot.style.justifyContent = 'center';
       if (idx < ${activeCustomer.currentStamps}) {
         const img = document.createElement('img');
-        img.src = idx % 2 === 0 ? '/stamp-roti.png' : '/stamp-kopi.png';
+        img.src = idx % 2 === 0 ? '/stamp-kopi.png' : '/stamp-roti.png';
         img.style.width = '100%';
         img.style.height = '100%';
         img.style.objectFit = 'contain';
@@ -1520,7 +1520,7 @@ export default function DigitalLoyaltyApp() {
                         setIsFlipped((prev) => !prev);
                       }
                     }}
-                    className="card-3d-tilt w-full aspect-[2769/1742] cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0071E3] rounded-[20px]"
+                    className="card-3d-tilt w-full aspect-[1024/644] cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0071E3] rounded-[20px]"
                     style={{
                       transform: `rotateX(${tilt.rx}deg) rotateY(${tilt.ry}deg)`,
                     }}
@@ -1543,8 +1543,8 @@ export default function DigitalLoyaltyApp() {
                         >
                           {/* Custom Front Face Background Asset */}
                           <img
-                            src="/kartu-depan.png?v=3"
-                            alt="Sissi Heritage Loyalty Card Front"
+                            src="/kartu-depan-v5.png"
+                            alt="Loyalty Card Front"
                             className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
                           />
 
@@ -1552,8 +1552,8 @@ export default function DigitalLoyaltyApp() {
                           <div
                             className="absolute z-30 pointer-events-none select-none overflow-hidden"
                             style={{
-                              left: '5.71%',
-                              top: '21.42%',
+                              left: '5.47%',
+                              top: '20.5%',
                               maxWidth: '52%',
                             }}
                           >
@@ -1597,16 +1597,16 @@ export default function DigitalLoyaltyApp() {
                         }`}
                       >
                         <div className="card-surface-shell bg-[#EFE5D1]">
-                          {/* Custom Back Face Base Asset (/kartu-belakang-kosong.png) */}
+                          {/* Custom Back Face Base Asset (/kartu-belakang-v5.png) */}
                           <img
-                            src="/kartu-belakang-kosong.png"
-                            alt="Sissi Heritage Loyalty Card Back"
+                            src="/kartu-belakang-v5.png"
+                            alt="Loyalty Card Back"
                             className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
                           />
 
                           {/* Top-Right Anonymous Customer ID Badge */}
-                          <div className="absolute top-[7.5%] right-[5.5%] z-10 pointer-events-none">
-                            <span className="font-mono tabular-nums text-[10px] sm:text-xs font-semibold text-[#4A4928]/85 tracking-wider">
+                          <div className="absolute top-[6.5%] right-[5.5%] z-10 pointer-events-none">
+                            <span className="font-mono tabular-nums text-[10px] sm:text-xs font-semibold text-[#4A4928]/85 tracking-wider bg-white/40 px-2 py-0.5 rounded-full border border-[#4A4928]/15">
                               ID · {activeCustomer.id}
                             </span>
                           </div>
@@ -1615,18 +1615,18 @@ export default function DigitalLoyaltyApp() {
                               8-STAMP CSS GRID OVERLAY
                               Matches the exact visual placement of the 8 empty circles
                               on /kartu-belakang-kosong.png:
-                              - Bounding box: left 14.45%, top 31.06%, width 71.07%, height 44.20%
+                              - Bounding box: left 14.36%, top 30.90%, width 71.19%, height 44.41%
                               - 5 columns x 2 rows (Row 1: cols 1..5, Row 2: cols 2..4)
                           ========================================================= */}
                           <div
                             className="absolute z-10 grid grid-cols-5 grid-rows-2 overflow-visible"
                             style={{
-                              left: '14.45%',
-                              top: '31.06%',
-                              width: '71.07%',
-                              height: '44.20%',
-                              columnGap: '4.15%',
-                              rowGap: '14.80%',
+                              left: '14.36%',
+                              top: '30.90%',
+                              width: '71.19%',
+                              height: '44.41%',
+                              columnGap: '4.08%',
+                              rowGap: '14.69%',
                             }}
                           >
                             {STAMP_SLOTS.map((slot, index) => {
@@ -1634,8 +1634,8 @@ export default function DigitalLoyaltyApp() {
                                 slot.index <= activeCustomer.currentStamps;
                               const stampSrc =
                                 index % 2 === 0
-                                  ? '/stamp-roti.png'
-                                  : '/stamp-kopi.png';
+                                  ? '/stamp-kopi.png'
+                                  : '/stamp-roti.png';
                               return (
                                 <button
                                   key={slot.index}
@@ -1668,20 +1668,20 @@ export default function DigitalLoyaltyApp() {
 
                           {/* =========================================================
                               DYNAMIC <img /> QR CODE OVERLAY
-                              Positioned strictly inside the white 'TEMPAT QR CODE'
-                              bounding box at bottom-right of /kartu-belakang-kosong.png:
-                              left: 79.75%, top: 68.85%, width: 17.02%, height: 27.10%
+                              Positioned strictly inside the green rounded box at bottom-right
+                              of /kartu-belakang-kosong.png:
+                              left: 80.47%, top: 70.34%, width: 15.53%, height: 24.53%
                           ========================================================= */}
                           <div
                             onClick={(e) => e.stopPropagation()}
                             title={`${appOrigin}/kasir?id=${activeCustomer.id}&stamps=${activeCustomer.currentStamps}`}
-                            className="absolute z-10 bg-white flex items-center justify-center p-[1.2%] overflow-hidden"
+                            className="absolute z-10 bg-white flex items-center justify-center p-[2%] overflow-hidden shadow-sm"
                             style={{
-                              left: '79.75%',
-                              top: '68.85%',
-                              width: '17.02%',
-                              height: '27.10%',
-                              borderRadius: '14%',
+                              left: '80.57%',
+                              top: '70.34%',
+                              width: '15.43%',
+                              height: '24.53%',
+                              borderRadius: '6%',
                             }}
                           >
                             <img

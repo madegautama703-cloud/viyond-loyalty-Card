@@ -55,13 +55,25 @@
   th{font-size:30px;color:#86868B;font-weight:500;text-transform:uppercase;letter-spacing:.02em;text-align:left;padding:22px 34px;border-bottom:1px solid rgba(255,255,255,.06)}
   td{font-size:34px;padding:38px 30px;border-bottom:1px solid rgba(255,255,255,.05)}
   .ready{color:#34D399;font-weight:700}
+
+  /* ---- floating template cards ---- */
+  .tmpl-float-card{
+    position:absolute;
+    border-radius:24px;
+    overflow:hidden;
+    border:1px solid rgba(255,255,255,.2);
+    box-shadow:0 30px 70px rgba(0,0,0,.75);
+    z-index:15;
+    pointer-events:none;
+    will-change:transform;
+  }
 </style>
 </head>
 <body>
-<div id="stage" class="clip" data-composition-id="sissi-vertical" data-start="0" data-duration="22" data-fps="30" data-width="1080" data-height="1920">
+<div id="stage" class="clip" data-composition-id="sissi-vertical" data-start="0" data-duration="25" data-fps="30" data-width="1080" data-height="1920">
 
   <!-- AUDIO -->
-  <audio id="bgm" data-start="0" data-duration="22" data-track-index="10" data-volume="0.32" data-fade-in="0.5" data-fade-out="1.8" src="assets/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3"></audio>
+  <audio id="bgm" data-start="0" data-duration="25" data-track-index="10" data-volume="0.32" data-fade-in="0.5" data-fade-out="1.5" src="assets/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3"></audio>
   <audio id="sfx-1" data-start="0.2"  data-duration="0.5" data-track-index="11" data-volume="0.6"  src="assets/sfx/impact/impactSoft_medium_001.ogg"></audio>
   <audio id="sfx-2" data-start="1.9"  data-duration="0.5" data-track-index="12" data-volume="0.7"  src="assets/sfx/casino/card-slide-1.ogg"></audio>
   <audio id="sfx-3" data-start="3.1"  data-duration="0.3" data-track-index="13" data-volume="0.55" src="assets/sfx/ui/click2.ogg"></audio>
@@ -76,14 +88,21 @@
   <audio id="sfx-12" data-start="14.20" data-duration="0.2" data-track-index="22" data-volume="0.6" src="assets/sfx/interface/click_003.ogg"></audio>
   <audio id="sfx-13" data-start="14.48" data-duration="0.2" data-track-index="23" data-volume="0.6" src="assets/sfx/interface/click_003.ogg"></audio>
   <audio id="sfx-14" data-start="14.75" data-duration="0.2" data-track-index="24" data-volume="0.6" src="assets/sfx/interface/click_003.ogg"></audio>
-  <audio id="sfx-15" data-start="15.84" data-duration="0.5" data-track-index="25" data-volume="0.65" src="assets/sfx/impact/impactSoft_medium_002.ogg"></audio>
-  <audio id="sfx-16" data-start="16.2" data-duration="0.3" data-track-index="26" data-volume="0.55" src="assets/sfx/ui/click2.ogg"></audio>
-  <audio id="sfx-17" data-start="16.6" data-duration="1.3" data-track-index="27" data-volume="0.72" src="assets/sfx/impact/impactBell_heavy_000.ogg"></audio>
-  <audio id="sfx-18" data-start="18.02" data-duration="0.5" data-track-index="28" data-volume="0.6" src="assets/sfx/impact/impactSoft_medium_001.ogg"></audio>
-  <audio id="sfx-19" data-start="18.16" data-duration="0.2" data-track-index="29" data-volume="0.45" src="assets/sfx/interface/click_005.ogg"></audio>
-  <audio id="sfx-20" data-start="18.30" data-duration="0.2" data-track-index="30" data-volume="0.45" src="assets/sfx/interface/click_005.ogg"></audio>
-  <audio id="sfx-21" data-start="18.44" data-duration="0.2" data-track-index="31" data-volume="0.45" src="assets/sfx/interface/click_005.ogg"></audio>
-  <audio id="sfx-22" data-start="19.66" data-duration="1.8" data-track-index="32" data-volume="0.75" src="assets/sfx/impact/impactBell_heavy_003.ogg"></audio>
+  <!-- KASIR BABAK -->
+  <audio id="sfx-16" data-start="15.84" data-duration="0.5" data-track-index="25" data-volume="0.65" src="assets/sfx/impact/impactSoft_medium_004.ogg"></audio>
+  <audio id="sfx-kasir-item" data-start="16.40" data-duration="0.3" data-track-index="26" data-volume="0.55" src="assets/sfx/ui/click2.ogg"></audio>
+  <audio id="sfx-17" data-start="17.00" data-duration="1.3" data-track-index="27" data-volume="0.72" src="assets/sfx/impact/impactBell_heavy_000.ogg"></audio>
+  <!-- B2B BABAK -->
+  <audio id="sfx-18" data-start="18.20" data-duration="0.5" data-track-index="28" data-volume="0.6"  src="assets/sfx/impact/impactSoft_medium_001.ogg"></audio>
+  <audio id="sfx-19" data-start="18.35" data-duration="0.2" data-track-index="29" data-volume="0.45" src="assets/sfx/interface/click_005.ogg"></audio>
+  <audio id="sfx-20" data-start="18.50" data-duration="0.2" data-track-index="30" data-volume="0.45" src="assets/sfx/interface/click_005.ogg"></audio>
+  <audio id="sfx-21" data-start="18.65" data-duration="0.2" data-track-index="31" data-volume="0.45" src="assets/sfx/interface/click_005.ogg"></audio>
+  <!-- TEMPLATES BABAK -->
+  <audio id="sfx-15" data-start="20.40" data-duration="0.5" data-track-index="32" data-volume="0.68" src="assets/sfx/impact/impactSoft_medium_002.ogg"></audio>
+  <audio id="sfx-tmpl-card1" data-start="20.70" data-duration="0.5" data-track-index="33" data-volume="0.62" src="assets/sfx/casino/card-slide-1.ogg"></audio>
+  <audio id="sfx-tmpl-card2" data-start="21.05" data-duration="0.5" data-track-index="34" data-volume="0.62" src="assets/sfx/casino/card-slide-1.ogg"></audio>
+  <!-- PENUTUP BABAK -->
+  <audio id="sfx-22" data-start="22.70" data-duration="1.8" data-track-index="35" data-volume="0.75" src="assets/sfx/impact/impactBell_heavy_003.ogg"></audio>
 
   <div id="glow"></div>
 
@@ -125,7 +144,7 @@
     <div class="mono" style="font-size:34px;color:#86868B;margin-top:10px">ID · SIS-9042-718K</div>
   </div>
 
-  <!-- KASIR SCREEN -->
+  <!-- KASIR SCREEN (15.84s -> 18.20s) -->
   <div id="kasir" class="screen">
     <div class="topbar"><b>Sissi Heritage · Kasir B2B</b><span style="color:#34D399;display:flex;align-items:center;gap:12px"><span class="dot"></span>QR Scan Verified</span></div>
     <div class="panel" style="left:40px;top:150px;width:1000px;height:790px;padding:50px">
@@ -145,7 +164,7 @@
     </div>
   </div>
 
-  <!-- B2B DASHBOARD -->
+  <!-- B2B DASHBOARD (18.20s -> 20.40s) -->
   <div id="b2b" class="screen">
     <div class="topbar" style="justify-content:center"><b style="font-size:30px">Direktori Stempel &amp; Penukaran Pelanggan B2B</b></div>
     <div class="muted" style="position:absolute;left:0;width:1080px;text-align:center;top:1780px;font-size:30px;display:flex;align-items:center;justify-content:center;gap:14px">Powered by <img src="assets/images/viyond-logo-white.png" style="height:44px"></div>
@@ -164,11 +183,70 @@
     </div>
   </div>
 
-  <!-- CTA -->
-  <div id="cta-t" class="t ctr" style="top:1010px;font-size:92px;line-height:1.08;font-weight:700;letter-spacing:-.035em;z-index:35">Sissi Heritage<br>Digital Loyalty Pass</div>
-  <div id="cta-s" class="t ctr" style="top:1290px;font-size:48px;font-weight:500;color:#EFE5D1;z-index:35;letter-spacing:.01em">The Old Corner Hits Different</div>
-  <div id="cta-c" class="t ctr" style="top:1400px;font-size:60px;font-weight:700;color:#2997FF;z-index:35">Buka kartunya.</div>
+  <!-- BABAK PILIHAN DESAIN & TEMPLATE (20.40s -> 22.80s) -->
+  <div id="templates" class="screen">
+    <div class="topbar">
+      <b>Pilihan Desain &amp; Kustomisasi</b>
+      <span style="color:#2997FF;display:flex;align-items:center;gap:12px">
+        <span class="dot" style="background:#2997FF;box-shadow:0 0 14px #2997FF"></span>Template &amp; Custom Brand
+      </span>
+    </div>
 
+    <!-- Header Copy -->
+    <div id="tmpl-head" style="position:absolute;left:0;width:1080px;text-align:center;top:130px;opacity:0">
+      <div data-layout-ignore="true" style="display:inline-flex;align-items:center;gap:14px;padding:10px 24px;border-radius:999px;border:1px solid rgba(41,151,255,.4);background:rgba(41,151,255,.1);color:#2997FF;font-size:28px;font-weight:600;margin-bottom:12px">
+        Katalog Desain Fleksibel
+      </div>
+      <div style="font-size:68px;font-weight:700;letter-spacing:-.035em;line-height:1.08;color:#F5F5F7">
+        Pilih Template Desain
+      </div>
+      <div data-layout-ignore="true" style="font-size:38px;font-weight:700;color:#2997FF;margin-top:10px;letter-spacing:-.02em">
+        atau Pakai Desain Brand Kamu
+      </div>
+    </div>
+
+    <!-- 3D Stage for Animated Cards -->
+    <div id="tmpl-stage" style="position:absolute;left:40px;top:350px;width:1000px;height:1360px;perspective:1400px">
+      <!-- Main Showcase Board -->
+      <div id="tmpl-card" class="panel" style="position:absolute;inset:0;overflow:hidden;padding:0;background:#161618;border-color:rgba(255,255,255,.14);opacity:0;will-change:transform">
+        <img src="assets/templates/all_templates.jpg" style="width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:34px" />
+        <div id="tmpl-shine" style="position:absolute;inset:0;mix-blend-mode:screen;pointer-events:none;background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.45) 48%,rgba(41,151,255,.25) 55%,transparent 70%);background-size:260% 100%"></div>
+        <div style="position:absolute;bottom:24px;left:26px;right:26px;display:flex;justify-content:space-between;align-items:center;pointer-events:none">
+          <span class="pill" style="background:rgba(0,0,0,.82);border-color:rgba(255,255,255,.25);font-size:28px;padding:12px 24px">
+            5+ Pilihan Gaya Kartu
+          </span>
+          <span class="pill" style="background:rgba(0,0,0,.82);border-color:rgba(41,151,255,.5);color:#2997FF;font-size:28px;padding:12px 24px">
+            Custom Logo &amp; Warna
+          </span>
+        </div>
+      </div>
+
+      <!-- Animated Floating Card 1 (Green Cat Cafe) -->
+      <div id="float-c1" class="tmpl-float-card" style="left:-16px;top:100px;width:500px;height:255px;opacity:0">
+        <img src="assets/templates/pair_green.jpg" style="width:100%;height:100%;object-fit:cover" />
+      </div>
+
+      <!-- Animated Floating Card 2 (Blue Cute Cat) -->
+      <div id="float-c2" class="tmpl-float-card" style="right:-16px;bottom:110px;width:510px;height:290px;opacity:0">
+        <img src="assets/templates/pair_blue.jpg" style="width:100%;height:100%;object-fit:cover" />
+      </div>
+    </div>
+  </div>
+
+  <!-- BABAK PENUTUP TERPISAH (22.70s -> 25.00s) -->
+  <div id="closing" class="screen" style="display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 60px;text-align:center;background:radial-gradient(circle at 50% 48%, rgba(41,151,255,.20) 0%, rgba(10,10,12,.97) 65%, #000 100%)">
+    <div id="cls-logo-wrap" style="margin-bottom:32px;opacity:0">
+      <img id="cls-logo" src="assets/images/viyond-logo.png" style="width:260px;height:260px;object-fit:contain;filter:drop-shadow(0 10px 36px rgba(41,151,255,.4))" />
+    </div>
+    <div id="cls-title" style="font-size:106px;font-weight:800;letter-spacing:-.04em;line-height:1.02;color:#F5F5F7;margin-bottom:28px;opacity:0">
+      Buka kartunya.
+    </div>
+    <div id="cls-tagline" style="font-size:62px;font-weight:700;letter-spacing:-.025em;line-height:1.15;color:#2997FF;opacity:0">
+      Your Vision, Taken Beyond!
+    </div>
+  </div>
+
+  <!-- FADE OVERLAY FOR SMOOTH TRANSITIONS & FINAL FADE OUT -->
   <div id="fade" class="abs" style="inset:0;background:#000;opacity:0;z-index:70;pointer-events:none"></div>
 </div>
 
@@ -186,7 +264,7 @@
   const bump=(t,b,d)=>t<b?0:Math.max(0,1-(t-b)/d);
 
   // music beat grid (from cues file) — drives the stage glow
-  const BEATS=[0.56,1.09,1.64,2.19,2.73,3.27,3.82,4.39,4.91,5.34,6.00,6.56,7.09,7.64,8.19,8.74,9.29,9.83,10.37,10.93,11.46,12.02,12.55,13.11,13.64,14.20,14.73,15.29,15.84,16.38,16.93,17.47,18.02,18.56,19.10,19.66,20.19,20.75,21.28];
+  const BEATS=[0.56,1.09,1.64,2.19,2.73,3.27,3.82,4.39,4.91,5.34,6.00,6.56,7.09,7.64,8.19,8.74,9.29,9.83,10.37,10.93,11.46,12.02,12.55,13.11,13.64,14.20,14.73,15.29,15.84,16.38,16.93,17.47,18.02,18.56,19.10,19.66,20.19,20.75,21.28,21.84,22.37,22.93,23.46,24.02,24.56];
 
   // ---- build static DOM bits ----
   // 8 stamp slots (centres in the 1000x629 card art)
@@ -198,7 +276,7 @@
     d.innerHTML='<img src="assets/images/'+(i%2===0?'stamp-kopi.png':'stamp-roti.png')+'">';
     slotsEl.appendChild(d);
   });
-  // a stand-in QR (fictional pattern) over the "TEMPAT QR CODE" area
+  // a stand-in QR (fictional pattern) over the QR box area
   const qr=$('qr');qr.style.gridTemplateColumns='repeat(19,1fr)';qr.style.gridTemplateRows='repeat(19,1fr)';
   let seed=9042;const rnd=()=>{seed=(seed*1664525+1013904223)%4294967296;return seed/4294967296};
   const finder=(r,c)=>{const f=(a,b)=>{const rr=r-a,cc=c-b;if(rr<0||cc<0||rr>6||cc>6)return null;
@@ -232,7 +310,7 @@
       ty=-10+Math.sin(t*2.2)*8; tx=4+Math.cos(t*1.7)*3;
       const f=ei(prog(t,1.9,0.8)); y+=f*1300; z=f*16; ty-=f*10;
       if(t>=2.8) op=0;
-    } else if(t<16){
+    } else if(t<15.84){
       x=540;s=0.94;
       const r=eo(prog(t,7,1.6));
       y=lerp(2300,640,r); z=lerp(12,0,r);
@@ -244,12 +322,8 @@
       const calm=1-f*0.6; ty*=calm; tx*=calm;
       ty+=Math.sin(f*Math.PI)*-6;
       s*=1+0.03*Math.sin(f*Math.PI);
-    } else if(t<19.66){
-      op=0; // hidden behind screens, pre-positioned for CTA
-      x=540;y=560;s=0.9;flip=0;
     } else {
-      x=540;s=0.9;const e=eo(prog(t,19.66,0.9)); op=e; y=lerp(620,560,e);
-      ty=-8+Math.sin(t*1.9)*7; tx=3;
+      op=0; // hidden behind kasir, b2b, and template showcase screens
     }
     return {x,y,s,z,op,tx,ty,flip};
   }
@@ -257,17 +331,16 @@
   function render(t){
     // glow breathes on the beat grid
     let b=0;for(const bt of BEATS){b=Math.max(b,bump(t,bt,0.5))}
-    const gx=540, gy=t<7?780:(t<16?640:560);
+    const gx=540, gy=t<7?780:(t<15.84?640:560);
     const g=$('glow');
     g.style.transform='translate('+(gx-540).toFixed(0)+'px,'+(gy-960).toFixed(0)+'px) scale('+(1+0.05*b).toFixed(3)+')';
     g.style.opacity=((t<3?0.45:t<7?0.14:0.7)+0.22*b).toFixed(3);
-    if(t>=16&&t<19.66) g.style.opacity='0';
+    if(t>=15.84) g.style.opacity='0';
 
-    // card
+    // 3D card
     const c=cardState(t);
     $('card').style.transform='translate('+(c.x-500).toFixed(1)+'px,'+(c.y-314.5).toFixed(1)+'px) scale('+c.s.toFixed(4)+') rotateX('+(-c.tx).toFixed(2)+'deg) rotateY('+(c.ty+c.flip).toFixed(2)+'deg) rotateZ('+c.z.toFixed(2)+'deg)';
     $('persp').style.opacity=c.op.toFixed(3);
-    const sh=(t*0.35+c.ty*0.02);
     const pos=(100-((c.ty+40)/80*100)).toFixed(1)+'% 0';
     $('shine-f').style.backgroundPosition=pos;$('shine-f').style.opacity='0.55';
     $('shine-b').style.backgroundPosition=pos;$('shine-b').style.opacity='0.25';
@@ -305,50 +378,105 @@
     let n=0;for(let i=0;i<7;i++){if(t>=13.11+i*0.2735)n=i+1}
     $('cnt').textContent=n;
 
-    // KASIR 15.84 -> 18.02
-    const kIn=t>=15.84&&t<18.02;
+    // KASIR (15.84s -> 18.20s)
+    const kIn=t>=15.84&&t<18.20;
     $('kasir').style.opacity=kIn?'1':'0';
     if(kIn){
-      const k=t-15.84;
-      $('kasir').style.transform='scale('+(1.03-0.03*eo(prog(t,15.84,0.5))).toFixed(4)+')';
+      $('kasir').style.transform='scale('+(1.03-0.03*eo(prog(t,15.84,0.45))).toFixed(4)+')';
       show('qrchip',eo(prog(t,15.95,0.3)));
-      const pick=t>=16.2;
+      const pick=t>=16.40;
       $('it3').className='row-item'+(pick?' sel':'');
-      const press=t>=16.5;
-      $('submit').style.transform='scale('+(press&&t<16.62?0.97:1)+')';
+      const press=t>=17.00;
+      $('submit').style.transform='scale('+(press&&t<17.15?0.97:1)+')';
       $('submit').style.background=press?'#34D399':'#0071E3';
       $('submit').style.color=press?'#04130c':'#F5F5F7';
-      const full=t>=16.6;
+      const full=t>=17.08;
       $('kcnt').textContent=full?8:7;
       $('kd7').style.background=full?'#34D399':'transparent';
       $('kd7').style.borderColor=full?'#34D399':'#3a3a3e';
-      const bn=eo(prog(t,16.6,0.35));
+      const bn=eo(prog(t,17.08,0.35));
       $('kbanner').style.opacity=bn.toFixed(3);
       $('kbanner').style.transform='translateY('+((1-bn)*14).toFixed(1)+'px)';
     }
-    // B2B 18.02 -> 19.66
-    const bIn=t>=18.02&&t<19.66;
+
+    // B2B DASHBOARD (18.20s -> 20.40s)
+    const bIn=t>=18.20&&t<20.40;
     $('b2b').style.opacity=bIn?'1':'0';
     if(bIn){
       ['k1','k2','k3','k4'].forEach((id,i)=>{
-        const p=eo(prog(t,18.02+i*0.14,0.35));
+        const p=eo(prog(t,18.20+i*0.12,0.35));
         $(id).style.opacity=p.toFixed(3);$(id).style.transform='translateY('+((1-p)*26).toFixed(1)+'px)';});
-      const p=eo(prog(t,18.2,0.3)); // near strong cue 18.56
+      const p=eo(prog(t,18.50,0.35));
       $('tbl').style.opacity=p.toFixed(3);$('tbl').style.transform='translateY('+((1-p)*26).toFixed(1)+'px)';
     }
-    // CTA
-    txt('cta-t',t,19.66,0,16,0.3);
-    txt('cta-s',t,19.76,0,16,0.3);
-    txt('cta-c',t,19.86,0,16,0.3);
-    $('fade').style.opacity=(prog(t,21.8,0.2)).toFixed(3);
-    // cinematic cut dips on strong beats between screens
-    const dip=Math.max(bump(t,15.84,0.12)*0.5,bump(t,18.02,0.12)*0.5,bump(t,19.66,0.15)*0.6);
-    if(t<21.8) $('fade').style.opacity=dip.toFixed(3);
+
+    // BABAK PILIHAN DESAIN & TEMPLATE (20.40s -> 22.70s)
+    const tmplIn=t>=20.40&&t<22.70;
+    $('templates').style.opacity=tmplIn?'1':'0';
+    if(t>=20.40&&t<22.80){
+      // Header Copy Entry
+      const headP=eo(prog(t,20.40,0.35));
+      $('tmpl-head').style.opacity=headP.toFixed(3);
+      $('tmpl-head').style.transform='translateY('+((1-headP)*20).toFixed(1)+'px)';
+
+      // 3D Perspective Tilt on Main Showcase Card
+      const cardP=eo(prog(t,20.45,0.38));
+      $('tmpl-card').style.opacity=cardP.toFixed(3);
+      const floatMainY=Math.sin((t-20.40)*2.4)*10;
+      const tiltMainX=Math.cos((t-20.40)*1.8)*3;
+      const tiltMainY=Math.sin((t-20.40)*2.0)*4;
+      const sc=0.96+0.04*cardP+0.015*prog(t,20.80,1.9);
+      $('tmpl-card').style.transform='translateY('+floatMainY.toFixed(1)+'px) scale('+sc.toFixed(4)+') rotateX('+tiltMainX.toFixed(2)+'deg) rotateY('+tiltMainY.toFixed(2)+'deg)';
+
+      // Light Sheen Sweep on Showcase
+      const shinePos=(100-((t-20.40)*55)).toFixed(1)+'% 0';
+      $('tmpl-shine').style.backgroundPosition=shinePos;
+
+      // ANIMATED FLOATING CARD 1 (Green Cat Cafe, slides in at 20.65s)
+      const c1P=eb(prog(t,20.65,0.40));
+      const c1Op=clamp((t-20.65)/0.18);
+      const c1FloatY=Math.sin(t*3.0)*12;
+      const c1FloatRot=-4+Math.cos(t*2.2)*2;
+      const c1X=-120*(1-eo(prog(t,20.65,0.35)));
+      $('float-c1').style.opacity=c1Op.toFixed(3);
+      $('float-c1').style.transform='translateX('+c1X.toFixed(1)+'px) translateY('+c1FloatY.toFixed(1)+'px) rotate('+c1FloatRot.toFixed(2)+'deg) scale('+(0.85+0.15*c1P).toFixed(3)+')';
+
+      // ANIMATED FLOATING CARD 2 (Blue Cute Cat, slides in at 20.95s)
+      const c2P=eb(prog(t,20.95,0.40));
+      const c2Op=clamp((t-20.95)/0.18);
+      const c2FloatY=Math.cos(t*2.6)*14;
+      const c2FloatRot=3+Math.sin(t*2.0)*2;
+      const c2X=120*(1-eo(prog(t,20.95,0.35)));
+      $('float-c2').style.opacity=c2Op.toFixed(3);
+      $('float-c2').style.transform='translateX('+c2X.toFixed(1)+'px) translateY('+c2FloatY.toFixed(1)+'px) rotate('+c2FloatRot.toFixed(2)+'deg) scale('+(0.85+0.15*c2P).toFixed(3)+')';
+    }
+
+    // BABAK PENUTUP TERPISAH (22.70s -> 25.00s)
+    const closeIn=t>=22.70;
+    $('closing').style.opacity=closeIn?'1':'0';
+    if(closeIn){
+      const clL=eo(prog(t,22.70,0.30));
+      $('cls-logo-wrap').style.opacity=clL.toFixed(3);
+      $('cls-logo-wrap').style.transform='scale('+(0.90+0.10*clL).toFixed(3)+') translateY('+((1-clL)*20).toFixed(1)+'px)';
+
+      const clT=eo(prog(t,22.72,0.32));
+      $('cls-title').style.opacity=clT.toFixed(3);
+      $('cls-title').style.transform='scale('+(0.94+0.06*clT).toFixed(3)+') translateY('+((1-clT)*20).toFixed(1)+'px)';
+
+      const clTag=eo(prog(t,22.74,0.34));
+      $('cls-tagline').style.opacity=clTag.toFixed(3);
+      $('cls-tagline').style.transform='translateY('+((1-clTag)*18).toFixed(1)+'px)';
+    }
+
+    // FINAL FADE OUT TO BLACK (24.35s -> 25.00s) + Dips on scene cuts
+    const dip=Math.max(bump(t,15.84,0.12)*0.5, bump(t,18.20,0.12)*0.5, bump(t,20.40,0.12)*0.5, bump(t,22.70,0.12)*0.5);
+    const finalFade=prog(t,24.35,0.65);
+    $('fade').style.opacity=Math.max(dip, finalFade).toFixed(3);
   }
 
   const st={t:0};
   const tl=gsap.timeline({paused:true});
-  tl.to(st,{t:22,duration:22,ease:'none',onUpdate:()=>render(st.t)},0);
+  tl.to(st,{t:25,duration:25,ease:'none',onUpdate:()=>render(st.t)},0);
   render(0);
   window.__timelines=window.__timelines||{};
   window.__timelines['sissi-vertical']=tl;
